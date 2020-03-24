@@ -1,0 +1,8 @@
+#!/bin/bash
+RESET=$1
+function upgrade() {
+if [[ $RESET = w ]]; then
+npm run start
+        fi;
+}
+upgrade

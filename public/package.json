@@ -1,0 +1,26 @@
+{
+  "name": "MyPortf",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "pixrem": "^5.0.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "sass-mq": "^5.0.1",
+    "sass-rem": "^2.0.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch"
+  },
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.13.1",
+    "react-scripts": "latest",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}
