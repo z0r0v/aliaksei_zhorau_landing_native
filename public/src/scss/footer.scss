@@ -1,0 +1,58 @@
+@import "reimport";
+
+
+
+@mixin ico-plaster($size) {
+  position: absolute;
+  content: '';
+  width: $size;
+  height: $size;
+  background-size: $size $size;
+}
+
+
+
+footer {
+  .contacts {
+    .git-lub {
+      &::before {
+        @include ico-plaster(10px);
+        background-image: url(../img/ico/next.png);
+      }
+    }
+
+
+
+    &__ul {
+      &--box-items {
+        &__item {
+          ul {
+            li {
+
+
+
+            }
+          }
+
+        }
+
+        &__label {
+
+        }
+      }
+    }
+
+
+
+
+
+  }
+
+
+
+
+
+
+
+
+}

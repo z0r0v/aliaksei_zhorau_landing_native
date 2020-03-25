@@ -1,17 +1,133 @@
+@import "reimport";
 .header {
+  margin-top: rem(60px);
+  margin-bottom: rem(20px);
   .header-box {
     display: flex;
+    flex-wrap: wrap;
+    &__text {
+      margin: rem(0 10px);
+    }
     &__persona {
+      width: 100%;
+      @include mq($from: wide) {
+        width: 35%;
+      }
+      display: flex;
+      &--img {
+        max-width: rem(50px);
+        display: flex;
+        img {
+          width: 100%;
+        }
+      }
       &--h1 {
+        margin-bottom: rem(3px);
+        margin-top: 0;
+        font-size: rem(31px);
+        @include mq($from: desktop) {
+          font-size: rem(33px);
+        }
         &__span {
-          display: block;
-          font-size: rem(12px);
+          //display: block;
+          display: none;
+          font-size: rem(18px);
+          letter-spacing: rem(0.8px);
         }
       }
       &--h2 {
-        font-size: 20px;
+        margin: 0;
+        font-size: rem(20px);
+        letter-spacing: 1.6px;
+        @include mq($from: desktop) {
+          letter-spacing: rem(2.1px);
+        }
       }
-
+    }
+    &__nav-box {
+      width: 100%;
+      margin-top: 0;
+      @include mq($from: desktop) {
+        margin-top: rem(20px);
+        padding-bottom: rem(7px);
+        border-bottom: 2px solid $tins-black-color;
+      }
+      @include mq($from: wide) {
+        width: 65%;
+        padding-bottom: rem(15px);
+      }
+      &--ul {
+        height: 100%;
+        margin: 0;
+        padding: rem(10px 0);
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        align-items: normal;
+        @include mq($from: desktop) {
+          padding: rem(0 30px);
+          border-top: 2px solid $tins-black-color;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: flex-end;
+        }
+        @include mq($from: wide) {
+          border-top: none;
+        }
+        &__li {
+          position: relative;
+          min-width: rem(150px);
+          border-bottom: 1px solid black;
+          padding: rem(5px 20px 5px 5px);
+          &:first-child {
+            border-top: 1px solid black;
+            @include mq($from: desktop) {
+              border: none;
+            }
+          }
+          @include mq($from: desktop) {
+            border: none;
+            padding: rem(5px);
+          }
+          a {
+            padding: 0;
+            border: none;
+            font-size: rem(20px);
+            text-decoration: none;
+            color: $tins-black-color;
+            @include mq($from: desktop) {
+              padding: rem(0 20px 11px 20px);
+            }
+            @include mq($from: wide) {
+              padding: rem(0 20px 21px 20px);
+            }
+            &:active {
+            }
+            &:hover {
+              font-weight: bold;
+              color: $ubuntu-red-color;
+              @include mq($from: desktop) {
+                border-bottom: 2px solid $ubuntu-red-color;
+              }
+            }
+            &:after {
+              position: absolute;
+              width: rem(20px);
+              height: rem(20px);
+              right: rem(12px);
+              content: "+";
+              border: 2px solid $tins-black-color;
+              border-radius: 50%;
+              text-align: center;
+              line-height: rem(17px);
+              font-size: rem(22px);
+              @include mq($from: desktop) {
+                display: none;
+              }
+            }
+          }
+        }
+      }
     }
   }
 }
