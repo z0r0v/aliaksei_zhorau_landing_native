@@ -1,58 +1,111 @@
 @import "reimport";
-
-
-
-@mixin ico-plaster($size) {
-  position: absolute;
-  content: '';
-  width: $size;
-  height: $size;
-  background-size: $size $size;
-}
-
-
-
 footer {
   .contacts {
+    border-top: 2px solid $tins-black-color;
+    border-bottom: 2px solid $tins-black-color;
     .git-lub {
-      &::before {
-        @include ico-plaster(10px);
-        background-image: url(../img/ico/next.png);
-      }
+      $url: "../img/ico/gitlab-logo-png-transparent.png";
+      @include ico-plaster(20px, $url);
     }
-
-
-
+    .git-hub {
+      $url: "../img/ico/icons8-github-50.png";
+      @include ico-plaster(20px, $url);
+    }
+    .stackblitz {
+      $url: "../img/ico/stackblitz.png";
+      @include ico-plaster(20px, $url);
+    }
+    .codepen {
+      $url: "../img/ico/codepenico.png";
+      @include ico-plaster(20px, $url);
+    }
+    .telegram {
+      $url: "../img/ico/telegram.png";
+      @include ico-plaster(22px, $url);
+    }
+    .viber {
+      $url: "../img/ico/viber_PNG7.png";
+      @include ico-plaster(20px, $url);
+    }
+    .skype {
+      $url: "../img/ico/skypelogo.png";
+      @include ico-plaster(20px, $url);
+    }
+    .linked {
+      $url: "../img/ico/linkedIn_PNG37.png";
+      @include ico-plaster(20px, $url);
+    }
+    .facebook {
+      $url: "../img/ico/facebook_logos_PNG19748.png";
+      @include ico-plaster(20px, $url);
+    }
+    .vk {
+      $url: "../img/ico/vk.png";
+      @include ico-plaster(20px, $url);
+    }
+    .phone {
+      $url: "../img/ico/tel-ico.png";
+      @include ico-plaster(20px, $url);
+    }
+    .email {
+      $url: "../img/ico/email_PNG11.png";
+      @include ico-plaster(20px, $url);
+    }
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
     &__ul {
       &--box-items {
+        margin-top: rem(11px);
+        margin-bottom: 0;
+        padding-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        @include mq($from: desktop) {
+          margin: 0;
+          padding-bottom: rem(10px);
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        &__label {
+          display: none;
+          padding-right: rem(20px);
+          font-size: rem(20px);
+          text-transform: uppercase;
+          @include mq($from: desktop) {
+            display: block;
+          }
+        }
         &__item {
           ul {
+            display: flex;
+            @include mq($from: desktop) {
+              display: block;
+            }
             li {
-
-
-
+              position: relative;
+              margin: rem(0 15px 10px 15px);
+              @include mq($from: desktop) {
+                padding-left: rem(15px);
+              }
+              a {
+                border: none;
+                font-size: 0;
+                text-decoration: none;
+                &::before {
+                  @extend .vertical-centered-absolute;
+                  left: 0;
+                }
+                @include mq($from: desktop) {
+                  font-size: rem(20px);
+                }
+              }
             }
           }
-
-        }
-
-        &__label {
-
         }
       }
     }
-
-
-
-
-
   }
-
-
-
-
-
-
-
-
 }

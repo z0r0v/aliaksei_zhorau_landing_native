@@ -1,0 +1,35 @@
+@import "reimport";
+
+.box__slick-slider {
+  position: relative;
+  margin-bottom: rem(20px);
+.slick-arrow {
+  &::before {
+    color: black;
+    z-index: 1;
+    @include mq($until: desktop) {
+      display: none;
+    }
+  }
+}
+  .slick-next {
+  }
+  .slick-prev {
+  }
+  .slides {
+    height: rem(300px);
+    background-image: url(../img/slider-img/baner.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    @include mq($from: desktop) {
+      background-position: center;
+    }
+  }
+  .slick-slider__item.slide1 {
+    @extend .slides;
+
+  }
+  .slick-slider__item.slide2 {
+    @extend .slides;
+  }
+}

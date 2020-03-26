@@ -90,10 +90,11 @@
             padding: rem(5px);
           }
           a {
-            padding: 0;
-            border: none;
+            //padding: 0;
+            //border: none;
+            //text-decoration: none;
+
             font-size: rem(20px);
-            text-decoration: none;
             color: $tins-black-color;
             @include mq($from: desktop) {
               padding: rem(0 20px 11px 20px);
