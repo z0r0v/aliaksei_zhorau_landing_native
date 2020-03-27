@@ -1,0 +1,142 @@
+@import "reimport";
+.skils-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  &__item {
+    position: relative;
+    width: rem(70px);
+    height: rem(60px);
+    padding: rem(30px 0 0);
+    border: 2px solid $grey-color;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    background-color: white;
+    @include mq($from: desktop) {
+      width: rem(104px);
+    }
+    &:hover {
+      border-radius: 5px;
+      transform: scale(1.1, 1.1);
+      z-index: 1;
+      box-shadow: rem(0px 0px 5px 1px) $shadow-black-color;
+    }
+    &::before {
+      top: rem(5px);
+      @extend .horizontal-centered-absolute;
+    }
+    p {
+      margin: 0 auto rem(10px);
+      padding: 0 rem(5px);
+      font-size: rem(13px);
+      @include mq($from: desktop) {
+        font-size: rem(16px);
+      }
+    }
+  }
+  &__item.magento {
+    $url: "../img/ico/magento_icon-icons.com.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.presta {
+    $url: "../img/ico/presto.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.html {
+    $url: "../img/ico/social_html5_html_71.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.css {
+    $url: "../img/ico/css3-01_icon-icons.com_50918.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.sass {
+    $url: "../img/ico/file_type_sass_icon_130182.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.less {
+    $url: "../img/ico/folder_type_less_icon_129927.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.flex-box {
+    $url: "../img/ico/css-flexbox.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.grid {
+    $url: "../img/ico/grid.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.gulp {
+    $url: "../img/ico/file_type_gulp_icon_130557.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.grunt {
+    $url: "../img/ico/file_type_grunt_icon_130558.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.webpack {
+    $url: "../img/ico/webpack.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.compass {
+    $url: "../img/ico/compass-logo.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.javascript {
+    $url: "../img/ico/javascript_icon_130900.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.jquery {
+    $url: "../img/ico/2333384-code-jquery-social_85595.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.vue {
+    $url: "../img/ico/file_type_vue_icon_130078.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.msql {
+    $url: "../img/ico/sql_racer_gamedatabase_sql_1526.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.apatche2 {
+    $url: "../img/ico/apache.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.nginx {
+    $url: "../img/ico/file_type_nginx_icon_130305.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.git {
+    $url: "../img/ico/file_type_git_icon_130581.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.php {
+    $url: "../img/ico/php_pgelephant_ph_6030.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.xml {
+    $url: "../img/ico/xmlsource_xm_1479.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.figma {
+    $url: "../img/ico/figma.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.photoshop {
+    $url: "../img/ico/photoshop.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.ubuntu {
+    $url: "../img/ico/ubuntu_os_logo_icon_134675.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.windows {
+    $url: "../img/ico/windows_os_logo_icon_134678.png";
+    @include ico-plaster(50px, $url);
+  }
+  &__item.apple {
+    $url: "../img/ico/apple_os_logo_icon_134677.png";
+    @include ico-plaster(50px, $url);
+  }
+}

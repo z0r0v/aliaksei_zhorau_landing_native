@@ -9,14 +9,39 @@
   }
 }
 
+.centered-absolute {
+  top:50%;
+  left: 50%;  transform: translate(-50% -50%);
+}
+
 .vertical-centered-absolute {
   top:50%;
-  transform: translate(-50%, -50%);
+  transform: translateY(-50%);
 }
+
+.horizontal-centered-absolute {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 
 .mobile-visible {
   display: none;
+  @include mq($until: desktop) {
+    display: block;
+  }
+}
+
+.desktop-visible {
+  display: none;
   @include mq($from: desktop) {
     display: block;
+  }
+}
+
+.desktop-visible-flex {
+  display: none;
+  @include mq($from: desktop) {
+    display: flex;
   }
 }

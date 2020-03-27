@@ -1,8 +1,8 @@
 @import "reimport";
 footer {
   .contacts {
-    border-top: 2px solid $tins-black-color;
-    border-bottom: 2px solid $tins-black-color;
+    border-top: rem(2px) solid $tins-black-color;
+    border-bottom: rem(2px) solid $tins-black-color;
     .git-lub {
       $url: "../img/ico/gitlab-logo-png-transparent.png";
       @include ico-plaster(20px, $url);
@@ -51,6 +51,12 @@ footer {
       $url: "../img/ico/email_PNG11.png";
       @include ico-plaster(20px, $url);
     }
+    h3.mobile-visible {
+      margin: rem(11px 0 0 0);
+      padding-right: rem(5px);
+      font-size: rem(16px);
+      text-align: center;
+    }
     ul {
       list-style: none;
       padding-left: 0;
@@ -58,7 +64,7 @@ footer {
     &__ul {
       &--box-items {
         margin-top: rem(11px);
-        margin-bottom: 0;
+        margin-bottom: rem(11px);
         padding-bottom: 0;
         display: flex;
         flex-direction: row;
@@ -73,7 +79,7 @@ footer {
           display: none;
           padding-right: rem(20px);
           font-size: rem(20px);
-          text-transform: uppercase;
+          font-weight: normal;
           @include mq($from: desktop) {
             display: block;
           }
@@ -86,11 +92,12 @@ footer {
             }
             li {
               position: relative;
-              margin: rem(0 15px 10px 15px);
+              width: rem(30px);
               @include mq($from: desktop) {
-                padding-left: rem(15px);
+                width: rem(140px);
               }
               a {
+                padding-left: rem(30px);
                 border: none;
                 font-size: 0;
                 text-decoration: none;
@@ -99,7 +106,7 @@ footer {
                   left: 0;
                 }
                 @include mq($from: desktop) {
-                  font-size: rem(20px);
+                  font-size: rem(18px);
                 }
               }
             }

@@ -1,35 +1,114 @@
 @import "reimport";
-
 .box__slick-slider {
   position: relative;
   margin-bottom: rem(20px);
-.slick-arrow {
-  &::before {
-    color: black;
-    z-index: 1;
-    @include mq($until: desktop) {
-      display: none;
+  .slick-arrow {
+    &::before {
+      color: black;
+      z-index: 1;
+      @include mq($until: desktop) {
+        display: none;
+      }
     }
   }
-}
   .slick-next {
   }
   .slick-prev {
   }
   .slides {
-    height: rem(300px);
-    background-image: url(../img/slider-img/baner.jpg);
+    height: rem(266px);
     background-repeat: no-repeat;
     background-position: left;
     @include mq($from: desktop) {
       background-position: center;
+      height: rem(300px);
     }
   }
-  .slick-slider__item.slide1 {
+  .slick-slider__item {
+    h2 {
+      margin-top: rem(30px);
+      margin-left: rem(10px);
+      font-size: rem(28px);
+      @include mq($from: desktop) {
+        margin-left: rem(50px);
+        margin-top: rem(80px);
+      }
+      span {
+        display: block;
+        margin-top: rem(15px);
+        margin-left: 0;
+        font-size: rem(22px);
+        @include mq($from: desktop) {
+          margin-left: rem(20px);
+        }
+      }
+    }
+    p {
+      margin: rem(17px 10px);
+      font-size: rem(20px);
+      @include mq($from: desktop) {
+        margin: rem(17px 50% 17px 90px);
+      }
+    }
+  }
+  .slick-slider__item.magento {
     @extend .slides;
+    background-image: url(../img/banners/magento_bamnner.png);
+    background-size: rem(1300px 300px);
+    h2 span {
+      color: white;
+    }
+  }
+  .slick-slider__item.prestashop {
+    @extend .slides;
+    background-image: url(../img/banners/prestoshop_bamnner.png);
+  }
+  .slick-slider__item.html5 {
+    @extend .slides;
+    background-image: url(../img/banners/html-illustration.png);
+  }
+  .slick-slider__item.css {
+    h2, p {
+      color: $css-blue-color;
+    }
+    span {
+      color: white;
+    }
+    @extend .slides;
+    background-image: url(../img/banners/css_banner.png);
+  }
 
-  }
-  .slick-slider__item.slide2 {
+  .slick-slider__item.sass {
+    span {
+      color: white;
+    }
     @extend .slides;
+    background-image: url(../img/banners/sass.png);
   }
+
+  .slick-slider__item.javascript {
+    span {
+      color: white;
+    }
+    @extend .slides;
+    background-image: url(../img/banners/js-banner.png);
+  }
+  .slick-slider__item.jquery {
+    span {
+      color: white;
+    }
+    @extend .slides;
+    background-image: url(../img/banners/jqeury-banner.png);
+  }
+
+  .slick-slider__item.vue {
+    span {
+      color: white;
+    }
+    @extend .slides;
+    background-image: url(../img/banners/vue.png);
+  }
+
+
+
 }
