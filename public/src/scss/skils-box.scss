@@ -36,7 +36,7 @@
     }
   }
   &__item.magento {
-    $url: "../img/ico/magento_icon-icons.com.png";
+    $url: "../img/ico/magento.png";
     @include ico-plaster(50px, $url);
   }
   &__item.presta {
@@ -44,23 +44,23 @@
     @include ico-plaster(50px, $url);
   }
   &__item.html {
-    $url: "../img/ico/social_html5_html_71.png";
+    $url: "../img/ico/html5.png";
     @include ico-plaster(50px, $url);
   }
   &__item.css {
-    $url: "../img/ico/css3-01_icon-icons.com_50918.png";
+    $url: "../img/ico/css3.png";
     @include ico-plaster(50px, $url);
   }
   &__item.sass {
-    $url: "../img/ico/file_type_sass_icon_130182.png";
+    $url: "../img/ico/sass.png";
     @include ico-plaster(50px, $url);
   }
   &__item.less {
-    $url: "../img/ico/folder_type_less_icon_129927.png";
+    $url: "../img/ico/less.png";
     @include ico-plaster(50px, $url);
   }
   &__item.flex-box {
-    $url: "../img/ico/css-flexbox.png";
+    $url: "../img/ico/flexbox.png";
     @include ico-plaster(50px, $url);
   }
   &__item.grid {
@@ -68,11 +68,11 @@
     @include ico-plaster(50px, $url);
   }
   &__item.gulp {
-    $url: "../img/ico/file_type_gulp_icon_130557.png";
+    $url: "../img/ico/gulp.png";
     @include ico-plaster(50px, $url);
   }
   &__item.grunt {
-    $url: "../img/ico/file_type_grunt_icon_130558.png";
+    $url: "../img/ico/grunt.png";
     @include ico-plaster(50px, $url);
   }
   &__item.webpack {
@@ -80,23 +80,23 @@
     @include ico-plaster(50px, $url);
   }
   &__item.compass {
-    $url: "../img/ico/compass-logo.png";
+    $url: "../img/ico/compass.png";
     @include ico-plaster(50px, $url);
   }
   &__item.javascript {
-    $url: "../img/ico/javascript_icon_130900.png";
+    $url: "../img/ico/javascript.png";
     @include ico-plaster(50px, $url);
   }
   &__item.jquery {
-    $url: "../img/ico/2333384-code-jquery-social_85595.png";
+    $url: "../img/ico/jquery.png";
     @include ico-plaster(50px, $url);
   }
   &__item.vue {
-    $url: "../img/ico/file_type_vue_icon_130078.png";
+    $url: "../img/ico/vue.png";
     @include ico-plaster(50px, $url);
   }
   &__item.msql {
-    $url: "../img/ico/sql_racer_gamedatabase_sql_1526.png";
+    $url: "../img/ico/sql.png";
     @include ico-plaster(50px, $url);
   }
   &__item.apatche2 {
@@ -104,19 +104,19 @@
     @include ico-plaster(50px, $url);
   }
   &__item.nginx {
-    $url: "../img/ico/file_type_nginx_icon_130305.png";
+    $url: "../img/ico/nginx.png";
     @include ico-plaster(50px, $url);
   }
   &__item.git {
-    $url: "../img/ico/file_type_git_icon_130581.png";
+    $url: "../img/ico/git.png";
     @include ico-plaster(50px, $url);
   }
   &__item.php {
-    $url: "../img/ico/php_pgelephant_ph_6030.png";
+    $url: "../img/ico/php.png";
     @include ico-plaster(50px, $url);
   }
   &__item.xml {
-    $url: "../img/ico/xmlsource_xm_1479.png";
+    $url: "../img/ico/xmlsource.png";
     @include ico-plaster(50px, $url);
   }
   &__item.figma {
@@ -128,15 +128,15 @@
     @include ico-plaster(50px, $url);
   }
   &__item.ubuntu {
-    $url: "../img/ico/ubuntu_os_logo_icon_134675.png";
+    $url: "../img/ico/ubuntu.png";
     @include ico-plaster(50px, $url);
   }
   &__item.windows {
-    $url: "../img/ico/windows_os_logo_icon_134678.png";
+    $url: "../img/ico/windows.png";
     @include ico-plaster(50px, $url);
   }
   &__item.apple {
-    $url: "../img/ico/apple_os_logo_icon_134677.png";
+    $url: "../img/ico/aplle.png";
     @include ico-plaster(50px, $url);
   }
 }

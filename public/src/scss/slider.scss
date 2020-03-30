@@ -4,16 +4,12 @@
   margin-bottom: rem(20px);
   .slick-arrow {
     &::before {
-      color: black;
+      color: $tins-black-color;
       z-index: 1;
       @include mq($until: desktop) {
         display: none;
       }
     }
-  }
-  .slick-next {
-  }
-  .slick-prev {
   }
   .slides {
     height: rem(266px);
@@ -29,6 +25,7 @@
       margin-top: rem(30px);
       margin-left: rem(10px);
       font-size: rem(28px);
+      background-size: rem(1300px 300px);
       @include mq($from: desktop) {
         margin-left: rem(50px);
         margin-top: rem(80px);
@@ -51,63 +48,89 @@
       }
     }
   }
-  .slick-slider__item.magento {
+  @mixin slide-img($url:"../img/banners/505slider.jpg", $spanColor:$tins-black-color, $hColor:$tins-black-color) {
     @extend .slides;
-    background-image: url(../img/banners/magento_bamnner.png);
-    background-size: rem(1300px 300px);
-    h2 span {
-      color: white;
+    background-image: url($url);
+    h2 {
+      color: $hColor;
     }
+    span {
+      color: $spanColor;
+    }
+  }
+  .slick-slider__item.magento {
+    $url: "../img/banners/magento2.jpg";
+    @include slide-img($url, white);
   }
   .slick-slider__item.prestashop {
-    @extend .slides;
-    background-image: url(../img/banners/prestoshop_bamnner.png);
+    $url: "../img/banners/presto.jpg";
+    @include slide-img($url, white);
   }
   .slick-slider__item.html5 {
-    @extend .slides;
-    background-image: url(../img/banners/html-illustration.png);
+    $url: "../img/banners/html5.jpg";
+    @include slide-img($url, white);
   }
   .slick-slider__item.css {
-    h2, p {
+    $url: "../img/banners/css3.jpg";
+    @include slide-img($url, white, $css-blue-color);
+    p {
       color: $css-blue-color;
     }
-    span {
-      color: white;
-    }
-    @extend .slides;
-    background-image: url(../img/banners/css_banner.png);
   }
-
   .slick-slider__item.sass {
-    span {
-      color: white;
-    }
-    @extend .slides;
-    background-image: url(../img/banners/sass.png);
+    $url: "../img/banners/scss.jpg";
+    @include slide-img($url, white);
   }
-
   .slick-slider__item.javascript {
-    span {
-      color: white;
-    }
-    @extend .slides;
-    background-image: url(../img/banners/js-banner.png);
+    $url: "../img/banners/js.jpg";
+    @include slide-img($url, white);
   }
   .slick-slider__item.jquery {
-    span {
-      color: white;
-    }
-    @extend .slides;
-    background-image: url(../img/banners/jqeury-banner.png);
+    $url: "../img/banners/jquery.jpg";
+    @include slide-img($url, white);
+  }
+  .slick-slider__item.vue {
+    $url: "../img/banners/vue.jpg";
+    @include slide-img($url, white);
+  }
+  .slick-slider__item.less {
+    $url: "../img/banners/less.jpg";
+    @include slide-img($url, white);
+  }
+  .slick-slider__item.flex-box {
+    $url: "../img/banners/flexbox.jpg";
+    @include slide-img($url, white);
+  }
+  .slick-slider__item.grid {
+    $url: "../img/banners/grid.jpg";
+    @include slide-img($url, white);
   }
 
-  .slick-slider__item.vue {
-    span {
-      color: white;
-    }
-    @extend .slides;
-    background-image: url(../img/banners/vue.png);
+
+
+
+  //Доделать сладеры
+  .slick-slider__item.gulp {
+    $url: "../img/banners/grid.jpg";
+    @include slide-img();
   }
+  .slick-slider__item.grunt {
+    $url: "../img/banners/grid.jpg";
+    @include slide-img();
+  }
+  .slick-slider__item.webpack {
+    $url: "../img/banners/grid.jpg";
+    @include slide-img();
+  }
+
+  .slick-slider__item.compass {
+    $url: "../img/banners/grid.jpg";
+    @include slide-img();
+  }
+
+
+
+
 
 
 

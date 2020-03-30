@@ -4,11 +4,11 @@ footer {
     border-top: rem(2px) solid $tins-black-color;
     border-bottom: rem(2px) solid $tins-black-color;
     .git-lub {
-      $url: "../img/ico/gitlab-logo-png-transparent.png";
+      $url: "../img/ico/gitlab.png";
       @include ico-plaster(20px, $url);
     }
     .git-hub {
-      $url: "../img/ico/icons8-github-50.png";
+      $url: "../img/ico/github.png";
       @include ico-plaster(20px, $url);
     }
     .stackblitz {
@@ -16,7 +16,7 @@ footer {
       @include ico-plaster(20px, $url);
     }
     .codepen {
-      $url: "../img/ico/codepenico.png";
+      $url: "../img/ico/codepen.png";
       @include ico-plaster(20px, $url);
     }
     .telegram {
@@ -24,7 +24,7 @@ footer {
       @include ico-plaster(22px, $url);
     }
     .viber {
-      $url: "../img/ico/viber_PNG7.png";
+      $url: "../img/ico/viber.png";
       @include ico-plaster(20px, $url);
     }
     .skype {
@@ -32,11 +32,11 @@ footer {
       @include ico-plaster(20px, $url);
     }
     .linked {
-      $url: "../img/ico/linkedIn_PNG37.png";
+      $url: "../img/ico/linkedIn.png";
       @include ico-plaster(20px, $url);
     }
     .facebook {
-      $url: "../img/ico/facebook_logos_PNG19748.png";
+      $url: "../img/ico/facebook.png";
       @include ico-plaster(20px, $url);
     }
     .vk {
@@ -48,7 +48,7 @@ footer {
       @include ico-plaster(20px, $url);
     }
     .email {
-      $url: "../img/ico/email_PNG11.png";
+      $url: "../img/ico/email.png";
       @include ico-plaster(20px, $url);
     }
     h3.mobile-visible {
