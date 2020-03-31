@@ -1,10 +1,40 @@
 @import "reimport";
+
 .header {
   margin-top: rem(60px);
   margin-bottom: rem(20px);
   .header-box {
     display: flex;
     flex-wrap: wrap;
+    .mobile-menu {
+      position: relative;
+      width: 100%;
+      height: rem(50px);
+      margin-top: rem(20px);
+      color: white;
+      background-color: $tins-black-color;
+      box-shadow: rem(10px 0 0 0) $tins-black-color, rem(-10px 0 0 0) $tins-black-color;
+      span {
+        margin: auto rem(45px);
+      }
+
+      &__burger {
+        position: absolute;
+        padding: rem(4px);
+        border: 1px solid white;
+        @extend  .vertical-centered-absolute;
+        &--line {
+          width: rem(25px);
+          height: rem(2px);
+          margin: rem(3px 0);
+          background-color: white;
+        }
+      }
+
+
+    }
+
+
     &__text {
       margin: rem(0 10px);
     }
@@ -57,14 +87,17 @@
         padding-bottom: rem(15px);
       }
       &--ul {
+        display: none;
         height: 100%;
         margin: 0;
         padding: rem(10px 0);
-        display: flex;
         flex-direction: column;
         list-style: none;
         align-items: normal;
+        transform: translateY(-11px);
         @include mq($from: desktop) {
+          display: flex;
+          transform: translateY(0);
           padding: rem(0 30px);
           border-top: 2px solid $tins-black-color;
           flex-direction: row;
@@ -90,10 +123,6 @@
             padding: rem(5px);
           }
           a {
-            //padding: 0;
-            //border: none;
-            //text-decoration: none;
-
             font-size: rem(20px);
             color: $tins-black-color;
             @include mq($from: desktop) {
@@ -128,6 +157,10 @@
             }
           }
         }
+      }
+
+      &--ul.show-menu {
+        display: flex;
       }
     }
   }

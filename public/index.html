@@ -6,9 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Alex Zhorov</title>
     <link rel='stylesheet' href='dist/style.css'>
-    <link rel="shortcut icon"
-          href="src/img/ico/ubuntu.svg"
-          type="image/png">
+    <link rel="shortcut icon" href="src/img/ico/ubuntu.svg" type="image/png">
     <meta property="og:title" content="Portfolio Front-End Developer Alex Zhorov">
     <meta property="og:site_name" content="Website design and development">
     <meta property="og:url" content="https://aliakseizhorau.web.app/">
@@ -25,9 +23,9 @@
     <div class="header-box">
         <div class="header-box__persona">
             <picture class="header-box__persona--img">
-                <source media="(max-width: 768px)" srcset="src/img/ico/ubuntu-seeklogo.com.svg">
+                <source media="(max-width: 768px)" srcset="src/img/ico/ubuntu.svg">
                 <source srcset="src/img/ico/ubuntu.svg">
-                <img src="src/img/ico/ubuntu-seeklogo.com.svg" alt="Ubuntu-logo">
+                <img src="src/img/ico/ubuntu.svg" alt="Ubuntu-logo">
             </picture>
             <div class="header-box__text">
                 <h1 class="header-box__persona--h1">Aliaksei Zhorov <span class="header-box__persona--h1__span">(my friends call me Zhora)</span>
@@ -35,7 +33,17 @@
                 <h2 class="header-box__persona--h2">Front-End Developer</h2>
             </div>
         </div>
+        <div class="mobile-menu mobile-visible-flex">
+            <div class="mobile-menu__burger">
+                <div class="mobile-menu__burger--line"></div>
+                <div class="mobile-menu__burger--line"></div>
+                <div class="mobile-menu__burger--line"></div>
+                <div class="mobile-menu__burger--line"></div>
+            </div>
+            <span>Menu</span>
+        </div>
         <nav class="header-box__nav-box">
+<!--            desktop-visible-flex-->
             <ul class="header-box__nav-box--ul">
                 <li class="header-box__nav-box--ul__li">
                     <a href="#About">About me</a>

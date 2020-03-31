@@ -45,3 +45,10 @@
     display: flex;
   }
 }
+
+.mobile-visible-flex {
+  display: none;
+  @include mq($until: desktop) {
+    display: flex;
+  }
+}
