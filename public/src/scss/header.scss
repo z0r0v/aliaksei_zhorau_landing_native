@@ -1,8 +1,11 @@
 @import "reimport";
-
 .header {
-  margin-top: rem(60px);
-  margin-bottom: rem(20px);
+  margin-top: 0;
+  padding-bottom: rem(20px);
+  padding-top: rem(60px);
+  @include mq($from: desktop) {
+    margin-top: rem(20px);
+  }
   .header-box {
     display: flex;
     flex-wrap: wrap;
@@ -13,16 +16,16 @@
       margin-top: rem(20px);
       color: white;
       background-color: $tins-black-color;
+      z-index: 1;
       box-shadow: rem(10px 0 0 0) $tins-black-color, rem(-10px 0 0 0) $tins-black-color;
       span {
         margin: auto rem(45px);
       }
-
       &__burger {
         position: absolute;
         padding: rem(4px);
         border: 1px solid white;
-        @extend  .vertical-centered-absolute;
+        @extend .vertical-centered-absolute;
         &--line {
           width: rem(25px);
           height: rem(2px);
@@ -30,11 +33,7 @@
           background-color: white;
         }
       }
-
-
     }
-
-
     &__text {
       margin: rem(0 10px);
     }
@@ -94,7 +93,7 @@
         flex-direction: column;
         list-style: none;
         align-items: normal;
-        transform: translateY(-11px);
+
         @include mq($from: desktop) {
           display: flex;
           transform: translateY(0);
@@ -110,14 +109,7 @@
         &__li {
           position: relative;
           min-width: rem(150px);
-          border-bottom: 1px solid black;
-          padding: rem(5px 20px 5px 5px);
-          &:first-child {
-            border-top: 1px solid black;
-            @include mq($from: desktop) {
-              border: none;
-            }
-          }
+          padding: rem(10px 20px 10px 50px);
           @include mq($from: desktop) {
             border: none;
             padding: rem(5px);
@@ -140,28 +132,96 @@
                 border-bottom: 2px solid $ubuntu-red-color;
               }
             }
-            &:after {
-              position: absolute;
-              width: rem(20px);
-              height: rem(20px);
-              right: rem(12px);
-              content: "+";
-              border: 2px solid $tins-black-color;
-              border-radius: 50%;
-              text-align: center;
-              line-height: rem(17px);
-              font-size: rem(22px);
+
+            &::before {
+              left: 0;
+              padding: 2px;
+              background-repeat: no-repeat;
+              background-position: center;
+              //border: 1px solid black;
+              @extend .vertical-centered-absolute;
               @include mq($from: desktop) {
                 display: none;
               }
             }
           }
+          a.about {
+            $url: "../img/ico/about.png";
+            @include ico-plaster(30px, $url);
+            &::before {
+              background-size: rem(25px 25px);
+            }
+          }
+          a.skills {
+            $url: "../img/ico/skills.png";
+            @include ico-plaster(30px, $url);
+          }
+          a.contacts {
+            $url: "../img/ico/contact.png";
+            @include ico-plaster(30px, $url);
+          }
+          a.experience {
+            $url: "../img/ico/Experience.png";
+            @include ico-plaster(30px, $url);
+            &::before {
+              background-size: rem(25px 25px);
+            }
+
+          }
+        }
+        $bottom-height: rem(3px);
+        &__li.down-div {
+          width: 100%;
+          height: rem(5px);
+          position: relative;
+          padding-bottom: 0;
+          border-bottom: $bottom-height solid $tins-black-color;
+         @extend .mobile-visible;
+          &::before {
+            position: absolute;
+            width: rem(10px);
+            height: $bottom-height;
+            border-bottom: $bottom-height solid $tins-black-color;
+            left: rem(-10px);
+            bottom: -$bottom-height;
+            content: "";
+            @extend .mobile-visible;
+          }
+          &:after {
+            position: absolute;
+            width: rem(10px);
+            height: $bottom-height;
+            border-bottom: $bottom-height solid $tins-black-color;
+            right: rem(-10px);
+            bottom: -$bottom-height;
+            content: "";
+            @extend .mobile-visible;
+          }
+        }
+      }
+      &--ul.show-menu {
+        display: flex;
+        animation: showBlock 0.5s linear forwards, topSlick 0.3s linear forwards;
+        z-index: 0;
+      }
+
+      @keyframes showBlock {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      @keyframes topSlick {
+        0% {
+          margin-top: -80px;
+        }
+        100% {
+          margin-top: 0;
         }
       }
 
-      &--ul.show-menu {
-        display: flex;
-      }
     }
   }
 }

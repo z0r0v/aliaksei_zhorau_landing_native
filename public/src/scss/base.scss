@@ -2,11 +2,19 @@
 
 $wrapper: rem(1200px);
 
+body {
+  background-color: $white-background-color;
+}
+
+
+
 header, footer, .container {
   margin: 0 auto;
   padding: rem(0 2px);
   max-width: $wide;
   color: $tins-black-color;
+  background-color: $white-color;
+
   @include mq($from: desktop) {
     padding: rem(0 100px);
   }

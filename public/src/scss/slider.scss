@@ -105,32 +105,66 @@
     $url: "../img/banners/grid.jpg";
     @include slide-img($url, white);
   }
-
-
-
-
-  //Доделать сладеры
   .slick-slider__item.gulp {
-    $url: "../img/banners/grid.jpg";
-    @include slide-img();
+    $url: "../img/banners/gulp.jpg";
+    @include slide-img($url, white);
   }
   .slick-slider__item.grunt {
-    $url: "../img/banners/grid.jpg";
-    @include slide-img();
+    $url: "../img/banners/grunt.jpg";
+    @include slide-img($url, white);
   }
   .slick-slider__item.webpack {
-    $url: "../img/banners/grid.jpg";
-    @include slide-img();
+    $url: "../img/banners/webpack.jpg";
+    @include slide-img($url, white);
+    h2, p {
+      color: white;
+    }
   }
-
   .slick-slider__item.compass {
-    $url: "../img/banners/grid.jpg";
-    @include slide-img();
+    $url: "../img/banners/compass.jpg";
+    @include slide-img($url, white);
+    h2, p {
+      color: white;
+    }
   }
 
-
-
-
+  //Доделать слайдеры
+  .slick-slider__item.mysql {
+     $url: "../img/banners/miniony.jpg";
+    @include slide-img($url, black);
+  }
+  .slick-slider__item.apatche {
+     $url: "../img/banners/miniony.jpg";
+    @include slide-img($url, black);
+  }
+  .slick-slider__item.nginx {
+     $url: "../img/banners/miniony.jpg";
+    @include slide-img($url, black);
+  }
+  .slick-slider__item.xml {
+     $url: "../img/banners/miniony.jpg";
+    @include slide-img($url, black);
+  }
+  .slick-slider__item.figma {
+     $url: "../img/banners/miniony.jpg";
+    @include slide-img($url, black);
+  }
+  .slick-slider__item.photoshop {
+     $url: "../img/banners/miniony.jpg";
+    @include slide-img($url, black);
+  }
+  .slick-slider__item.ubuntu {
+     $url: "../img/banners/miniony.jpg";
+    @include slide-img($url, black);
+  }
+  .slick-slider__item.windows {
+     $url: "../img/banners/miniony.jpg";
+    @include slide-img($url, black);
+  }
+  .slick-slider__item.apple {
+     $url: "../img/banners/miniony.jpg";
+    @include slide-img($url, black);
+  }
 
 
 
