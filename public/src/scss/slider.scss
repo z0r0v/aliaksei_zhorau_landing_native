@@ -1,5 +1,8 @@
 @import "reimport";
 .box__slick-slider {
+  .slick-dots {
+    display: none !important;
+  }
   position: relative;
   margin-bottom: rem(20px);
   .slick-arrow {
@@ -12,160 +15,172 @@
     }
   }
   .slides {
-    height: rem(266px);
+    height: rem(300px);
     background-repeat: no-repeat;
     background-position: left;
     @include mq($from: desktop) {
       background-position: center;
-      height: rem(300px);
     }
   }
   .slick-slider__item {
-    h2 {
-      margin-top: rem(30px);
-      margin-left: rem(10px);
-      font-size: rem(28px);
-      background-size: rem(1300px 300px);
-      @include mq($from: desktop) {
-        margin-left: rem(50px);
-        margin-top: rem(80px);
+    &--text {
+      position: relative;
+      text-align: center;
+      &::before {
+        display: none;
+        position: absolute;
+        width: rem(2px);
+        height: rem(170px);
+        content: "";
+        left: rem(26px);
+        top: rem(65px);
       }
-      span {
-        display: block;
-        margin-top: rem(15px);
-        margin-left: 0;
-        font-size: rem(22px);
-        @include mq($from: desktop) {
-          margin-left: rem(20px);
+      @include mq($from: desktop) {
+        margin-left: rem(90px);
+        text-align: left;
+        &::before {
+          display: block;
         }
       }
-    }
-    p {
-      margin: rem(17px 10px);
-      font-size: rem(20px);
-      @include mq($from: desktop) {
-        margin: rem(17px 50% 17px 90px);
+      h2 {
+        font-size: rem(50px);
+      }
+      h3 {
+        font-size: rem(40px);
+        @include mq($from: desktop) {
+          margin-left: rem(40px);
+          margin-bottom: 0;
+          font-size: rem(25px);
+        }
+      }
+      p {
+        max-width: rem(600px);
+        margin-left: rem(40px);
+        font-size: rem(20px);
+        @extend .desktop-visible;
       }
     }
   }
-  @mixin slide-img($url:"../img/banners/505slider.jpg", $spanColor:$tins-black-color, $hColor:$tins-black-color) {
+  @mixin slide-img($url:"../img/banners/505slider.jpg", $h2Color:$tins-black-color, $h3Color:$tins-black-color, $pColor:$tins-black-color) {
     @extend .slides;
     background-image: url($url);
+    .slick-slider__item--text {
+      &::before {
+        background-color: $h3Color;
+      }
+    }
     h2 {
-      color: $hColor;
+      color: $h2Color;
     }
-    span {
-      color: $spanColor;
+    h3 {
+      color: $h3Color;
     }
-  }
-  .slick-slider__item.magento {
-    $url: "../img/banners/magento2.jpg";
-    @include slide-img($url, white);
-  }
-  .slick-slider__item.prestashop {
-    $url: "../img/banners/presto.jpg";
-    @include slide-img($url, white);
-  }
-  .slick-slider__item.html5 {
-    $url: "../img/banners/html5.jpg";
-    @include slide-img($url, white);
-  }
-  .slick-slider__item.css {
-    $url: "../img/banners/css3.jpg";
-    @include slide-img($url, white, $css-blue-color);
     p {
-      color: $css-blue-color;
+      color: $pColor;
     }
-  }
-  .slick-slider__item.sass {
-    $url: "../img/banners/scss.jpg";
-    @include slide-img($url, white);
   }
   .slick-slider__item.javascript {
     $url: "../img/banners/js.jpg";
-    @include slide-img($url, white);
+    @include slide-img($url, $tins-black-color, white, $js-color);
   }
   .slick-slider__item.jquery {
     $url: "../img/banners/jquery.jpg";
-    @include slide-img($url, white);
+    @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.vue {
     $url: "../img/banners/vue.jpg";
-    @include slide-img($url, white);
+    @include slide-img($url, $tins-black-color, white);
+  }
+  .slick-slider__item.sass {
+    $url: "../img/banners/scss.jpg";
+    @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.less {
     $url: "../img/banners/less.jpg";
-    @include slide-img($url, white);
+    @include slide-img($url, $tins-black-color, white);
+  }
+  .slick-slider__item.magento {
+    $url: "../img/banners/magento2.jpg";
+    @include slide-img($url, $tins-black-color, white);
+  }
+  .slick-slider__item.prestashop {
+    $url: "../img/banners/presto.jpg";
+    @include slide-img($url, $tins-black-color, white);
+  }
+  .slick-slider__item.html5 {
+    $url: "../img/banners/html5.jpg";
+    @include slide-img($url, $tins-black-color, white);
+  }
+  .slick-slider__item.css {
+    $url: "../img/banners/css3.jpg";
+    @include slide-img($url, $css-blue-color, white, $css-blue-color);
   }
   .slick-slider__item.flex-box {
     $url: "../img/banners/flexbox.jpg";
-    @include slide-img($url, white);
+    @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.grid {
     $url: "../img/banners/grid.jpg";
-    @include slide-img($url, white);
+    @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.gulp {
     $url: "../img/banners/gulp.jpg";
-    @include slide-img($url, white);
+    @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.grunt {
     $url: "../img/banners/grunt.jpg";
-    @include slide-img($url, white);
+    @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.webpack {
     $url: "../img/banners/webpack.jpg";
-    @include slide-img($url, white);
-    h2, p {
-      color: white;
-    }
+    @include slide-img($url, white, white, white);
   }
   .slick-slider__item.compass {
     $url: "../img/banners/compass.jpg";
-    @include slide-img($url, white);
-    h2, p {
-      color: white;
-    }
+    @include slide-img($url, white, white, white);
   }
-
-  //Доделать слайдеры
   .slick-slider__item.mysql {
-     $url: "../img/banners/miniony.jpg";
-    @include slide-img($url, black);
+    $url: "../img/banners/mysql.jpg";
+    @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.apatche {
-     $url: "../img/banners/miniony.jpg";
-    @include slide-img($url, black);
+    $url: "../img/banners/apatche2.jpg";
+    @include slide-img($url, $tins-black-color, $tins-black-color);
   }
   .slick-slider__item.nginx {
-     $url: "../img/banners/miniony.jpg";
-    @include slide-img($url, black);
+    $url: "../img/banners/nginx.jpg";
+    @include slide-img($url, white, white, white);
+  }
+  .slick-slider__item.git {
+    $url: "../img/banners/git.jpg";
+    @include slide-img($url, white, white, white);
+  }
+  .slick-slider__item.php {
+    $url: "../img/banners/php.jpg";
+    @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.xml {
-     $url: "../img/banners/miniony.jpg";
-    @include slide-img($url, black);
+    $url: "../img/banners/xml.jpg";
+    @include slide-img($url);
   }
   .slick-slider__item.figma {
-     $url: "../img/banners/miniony.jpg";
-    @include slide-img($url, black);
+    $url: "../img/banners/figma.jpg";
+    @include slide-img($url, white, white, $one-figma-color);
   }
   .slick-slider__item.photoshop {
-     $url: "../img/banners/miniony.jpg";
-    @include slide-img($url, black);
+    $url: "../img/banners/photoshop.jpg";
+    @include slide-img($url, $blue-ph-color, $blue-ph-color, $blue-ph-color);
   }
   .slick-slider__item.ubuntu {
-     $url: "../img/banners/miniony.jpg";
-    @include slide-img($url, black);
+    $url: "../img/banners/ubuntu.jpg";
+    @include slide-img($url, white, white, white);
   }
   .slick-slider__item.windows {
-     $url: "../img/banners/miniony.jpg";
-    @include slide-img($url, black);
+    $url: "../img/banners/windows.jpg";
+    @include slide-img($url, white, white, white);
   }
   .slick-slider__item.apple {
-     $url: "../img/banners/miniony.jpg";
-    @include slide-img($url, black);
+    $url: "../img/banners/aple.jpg";
+    @include slide-img($url);
   }
-
-
-
 }

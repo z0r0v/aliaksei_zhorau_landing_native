@@ -10,7 +10,6 @@ import './js/rainbows.js';
 import './js/unicorns.js';
 import './js/slider.js';
 import './js/dropmenu.js';
-
 import './js/scroll.js';
 
 
