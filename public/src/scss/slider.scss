@@ -184,3 +184,28 @@
     @include slide-img($url);
   }
 }
+
+
+
+.box__certificates-slider {
+  .slick-slider {
+    &__item {
+      &--img {
+        picture img{
+          width: 100%;
+          margin: 0 auto;
+          @include mq($from: desktop) {
+            width: 50%;
+          }
+        }
+      }
+      &--text {
+        margin: 0 auto;
+        width: 100%;
+        @include mq($from: desktop) {
+          width: 60%;
+        }
+      }
+    }
+  }
+}

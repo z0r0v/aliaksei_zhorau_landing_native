@@ -38,7 +38,6 @@ const methods = {
                 data.scrollTopValue = 95;
             }
             if (document.documentElement.scrollTop >= data.scrollTopValue) {
-                // console.log(document.documentElement.scrollTop);
                 $(data.headerBox).addClass('maxDown');
                 $(data.headerBox).removeClass('maxUp');
             } else {
@@ -49,7 +48,9 @@ const methods = {
     },
     scrollInit:()=> {
         methods.slowScrollAnchors();
-        methods.getScroll();
+
+        // тут работает не коректно нужно чтото придумать
+        // methods.getScroll();
     }
 };
 

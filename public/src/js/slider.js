@@ -167,6 +167,7 @@ const methods = {
         methods.moveToSlider();
     }
 };
+
 methods.sliderInit();
 
 
