@@ -1145,9 +1145,8 @@ footer .contacts {
 .box__project-slider .slick-slider .slick-dots {
   display: none !important; }
 
-@media (min-width: 61.25em) {
-  .box__project-slider .slick-center {
-    transform: scale(1.5);
-    background-color: #ffff; }
-    .box__project-slider .slick-center picture img {
-      height: 200px; } }
+.box__project-slider .slick-center {
+  transform: scale(1.5);
+  background-color: #ffff; }
+  .box__project-slider .slick-center picture img {
+    height: 200px; }

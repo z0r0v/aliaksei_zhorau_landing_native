@@ -242,13 +242,11 @@
   }
 
   .slick-center {
-    @include mq($from: desktop) {
       transform: scale(1.5);
       background-color: $white-color;
       picture img{
         height: rem(200px);
       }
-    }
   }
 
 

@@ -160,9 +160,11 @@ const methods = {
     }
 };
 
+const speadSliders = 3000;
+
 let config1 = {
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: speadSliders,
     arrows: false,
     pauseOnFocus: true,
     speed: 500,
@@ -171,6 +173,8 @@ let config1 = {
 };
 
 let config2 = {
+    autoplay: true,
+    autoplaySpeed: speadSliders,
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
@@ -188,7 +192,7 @@ let config2 = {
             breakpoint: 480,
             settings: {
                 arrows: false,
-                centerMode: true,
+                centerMode: false,
                 centerPadding: '40px',
                 slidesToShow: 1
             }
