@@ -186,7 +186,6 @@
 }
 
 
-
 .box__certificates-slider {
   .slick-slider {
     &__item {
@@ -207,5 +206,50 @@
         }
       }
     }
+
+    .slick-dots {
+      display: none!important;
+    }
   }
+}
+
+.box__project-slider {
+  .slick-slider {
+    &__item {
+      margin-top: rem(30px);
+      &--img {
+        height: rem(130px);
+        overflow: hidden;
+        picture img{
+          width: 100%;
+          margin: 0 auto;
+          @include mq($from: desktop) {
+            width: 50%;
+          }
+        }
+      }
+      &--text {
+        margin: 0 auto;
+        width: 100%;
+        @include mq($from: desktop) {
+          width: 60%;
+        }
+      }
+    }
+    .slick-dots {
+      display: none!important;
+    }
+  }
+
+  .slick-center {
+    @include mq($from: desktop) {
+      transform: scale(1.5);
+      background-color: $white-color;
+      picture img{
+        height: rem(200px);
+      }
+    }
+  }
+
+
 }

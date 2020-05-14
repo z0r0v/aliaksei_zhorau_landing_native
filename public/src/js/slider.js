@@ -1,7 +1,9 @@
 import * as $ from '../../node_modules/jquery';
 import '../../node_modules/slick-carousel';
 const data = {
-    slider: '.slick-slider',
+    sliderSkill: '.box__slick-slider .slick-slider',
+    sliderCert: '.box__certificates-slider .slick-slider',
+    sliderProject: '.box__project-slider .slick-slider',
     skilsBox: '.skils-box',
     slickDots: '.slick-dots',
     item: '.skils-box__item',
@@ -152,24 +154,53 @@ const methods = {
             methods.getSlide(type);
         });
     },
-    sliderInit:() => {
-        $(data.slider).slick(
-            {
-                autoplay: true,
-                autoplaySpeed: 3000,
-                arrows: false,
-                pauseOnFocus: true,
-                speed: 500,
-                swipeToSlide: true,
-                dots: true
-            }
-        );
+    sliderInit:(slider, config) => {
+        $(slider).slick(config);
         methods.moveToSlider();
     }
 };
 
-methods.sliderInit();
+let config1 = {
+    autoplay: true,
+    autoplaySpeed: 3000,
+    arrows: false,
+    pauseOnFocus: true,
+    speed: 500,
+    swipeToSlide: true,
+    dots: true
+};
 
+let config2 = {
+    centerMode: true,
+    centerPadding: '60px',
+    slidesToShow: 3,
+    responsive: [
+        {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+        }
+    ]
+};
+
+
+methods.sliderInit(data.sliderSkill, config1);
+methods.sliderInit(data.sliderCert, config1);
+
+methods.sliderInit(data.sliderProject, config2);
 
 // i can use this methods
 // slickCurrentSlide
