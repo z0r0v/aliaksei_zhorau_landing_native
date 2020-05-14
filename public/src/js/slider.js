@@ -162,7 +162,7 @@ const methods = {
 
 const speadSliders = 3000;
 
-let config1 = {
+const skilsConfig = {
     autoplay: true,
     autoplaySpeed: speadSliders,
     arrows: false,
@@ -172,7 +172,9 @@ let config1 = {
     dots: true
 };
 
-let config2 = {
+const certConfig = skilsConfig;
+
+const projectСonfig = {
     autoplay: true,
     autoplaySpeed: speadSliders,
     centerMode: true,
@@ -184,7 +186,7 @@ let config2 = {
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '40px',
+                centerPadding: '60px',
                 slidesToShow: 3
             }
         },
@@ -201,10 +203,9 @@ let config2 = {
 };
 
 
-methods.sliderInit(data.sliderSkill, config1);
-methods.sliderInit(data.sliderCert, config1);
-
-methods.sliderInit(data.sliderProject, config2);
+methods.sliderInit(data.sliderSkill, skilsConfig);
+methods.sliderInit(data.sliderCert, certConfig);
+methods.sliderInit(data.sliderProject, projectСonfig);
 
 // i can use this methods
 // slickCurrentSlide

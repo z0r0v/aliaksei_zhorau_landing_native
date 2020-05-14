@@ -374,7 +374,7 @@ body {
     .mobile-visible-flex {
       display: flex; } }
 
-footer .contacts {
+footer {
   border-top: 2px solid #191919;
   border-bottom: 2px solid #191919; }
   footer .contacts .git-lub::before {
@@ -761,6 +761,7 @@ footer .contacts {
     height: 50px;
     background-size: 50px 50px;
     background-image: url(2bb87ea5577560f2d3559c8e8fe15665.png); }
+@charset "UTF-8";
 .centered-absolute {
   top: 50%;
   left: 50%;
@@ -1124,29 +1125,76 @@ footer .contacts {
 .box__certificates-slider .slick-slider .slick-dots {
   display: none !important; }
 
+@media (min-width: 61.25em) {
+  .box__project-slider .slick-track {
+    height: 510px; } }
+
+.box__project-slider .slick-slider .slick-slide {
+  margin-top: 0; }
+  @media (min-width: 61.25em) {
+    .box__project-slider .slick-slider .slick-slide {
+      margin-top: 30px; } }
+
 .box__project-slider .slick-slider__item {
-  margin-top: 30px; }
+  width: 200px; }
+  .box__project-slider .slick-slider__item a {
+    display: none;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    text-align: right;
+    font-size: 14px;
+    text-decoration: underline; }
+    @media (min-width: 61.25em) {
+      .box__project-slider .slick-slider__item a {
+        display: none; } }
+    @media (min-width: 46.25em) {
+      .box__project-slider .slick-slider__item a {
+        display: none; } }
   .box__project-slider .slick-slider__item--img {
     height: 130px;
     overflow: hidden; }
+    @media (min-width: 61.25em) {
+      .box__project-slider .slick-slider__item--img {
+        height: 250px; } }
     .box__project-slider .slick-slider__item--img picture img {
       width: 100%;
-      margin: 0 auto; }
+      margin: 20px auto; }
       @media (min-width: 61.25em) {
         .box__project-slider .slick-slider__item--img picture img {
-          width: 50%; } }
+          width: 90%; } }
   .box__project-slider .slick-slider__item--text {
     margin: 0 auto;
     width: 100%; }
     @media (min-width: 61.25em) {
       .box__project-slider .slick-slider__item--text {
         width: 60%; } }
+    @media (min-width: 46.25em) {
+      .box__project-slider .slick-slider__item--text {
+        width: 100%; }
+        .box__project-slider .slick-slider__item--text h3 {
+          padding: 0 15px;
+          font-size: 16px; }
+        .box__project-slider .slick-slider__item--text p {
+          padding: 0 15px;
+          min-height: 130px;
+          font-size: 14px; } }
 
 .box__project-slider .slick-slider .slick-dots {
   display: none !important; }
 
-.box__project-slider .slick-center {
-  transform: scale(1.5);
-  background-color: #ffff; }
-  .box__project-slider .slick-center picture img {
+.box__project-slider .slick-slide.slick-center {
+  margin-top: 10px;
+  background-color: #ffff;
+  transform: scale(1.05); }
+  .box__project-slider .slick-slide.slick-center .slick-slider__item {
+    border: 4px solid #f4f7fa;
+    -moz-box-sizing: border-box;
+    /* Для Firefox */
+    -webkit-box-sizing: border-box;
+    /* Для Safari и Chrome */
+    box-sizing: border-box;
+    /* Для IE и Opera */ }
+    .box__project-slider .slick-slide.slick-center .slick-slider__item a {
+      display: block; }
+  .box__project-slider .slick-slide.slick-center picture img {
     height: 200px; }

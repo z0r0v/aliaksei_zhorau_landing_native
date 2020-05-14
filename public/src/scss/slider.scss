@@ -184,13 +184,11 @@
     @include slide-img($url);
   }
 }
-
-
 .box__certificates-slider {
   .slick-slider {
     &__item {
       &--img {
-        picture img{
+        picture img {
           width: 100%;
           margin: 0 auto;
           @include mq($from: desktop) {
@@ -206,25 +204,51 @@
         }
       }
     }
-
     .slick-dots {
-      display: none!important;
+      display: none !important;
     }
   }
 }
-
 .box__project-slider {
+  .slick-track {
+    @include mq($from: desktop) {
+      height: rem(510px);
+    }
+  }
   .slick-slider {
+    .slick-slide {
+      margin-top: 0;
+      @include mq($from: desktop) {
+        margin-top: rem(30px);
+      }
+    }
     &__item {
-      margin-top: rem(30px);
+      a {
+        display: none;
+        margin-bottom: rem(20px);
+        margin-right: rem(10px);
+        text-align: right;
+        font-size: rem(14px);
+        text-decoration: underline;
+        @include mq($from: desktop) {
+          display: none;
+        }
+        @include mq($from: tablet) {
+          display: none;
+        }
+      }
+      width: 200px;
       &--img {
         height: rem(130px);
         overflow: hidden;
-        picture img{
+        @include mq($from: desktop) {
+          height: rem(250px);
+        }
+        picture img {
           width: 100%;
-          margin: 0 auto;
+          margin: 20px auto;
           @include mq($from: desktop) {
-            width: 50%;
+            width: 90%;
           }
         }
       }
@@ -234,20 +258,39 @@
         @include mq($from: desktop) {
           width: 60%;
         }
+        @include mq($from: tablet) {
+          width: 100%;
+          h3 {
+            padding: rem(0 15px);
+            font-size: rem(16px);
+          }
+          p {
+            padding: rem(0 15px);
+            min-height: rem(130px);
+            font-size: rem(14px);
+          }
+        }
       }
     }
     .slick-dots {
-      display: none!important;
+      display: none !important;
     }
   }
-
-  .slick-center {
-      transform: scale(1.5);
-      background-color: $white-color;
-      picture img{
-        height: rem(200px);
+  .slick-slide.slick-center {
+    margin-top: rem(10px);
+    .slick-slider__item {
+      border: 4px solid $grey-color;
+      -moz-box-sizing: border-box; /* Для Firefox */
+      -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+      box-sizing: border-box; /* Для IE и Opera */
+      a {
+        display: block;
       }
+    }
+    background-color: $white-color;
+    transform: scale(1.05);
+    picture img {
+      height: rem(200px);
+    }
   }
-
-
 }

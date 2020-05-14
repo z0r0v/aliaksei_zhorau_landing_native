@@ -1,8 +1,9 @@
 @import "reimport";
 footer {
+  border-top: rem(2px) solid $tins-black-color;
+  border-bottom: rem(2px) solid $tins-black-color;
+
   .contacts {
-    border-top: rem(2px) solid $tins-black-color;
-    border-bottom: rem(2px) solid $tins-black-color;
     .git-lub {
       $url: "../img/ico/gitlab.png";
       @include ico-plaster(20px, $url);
