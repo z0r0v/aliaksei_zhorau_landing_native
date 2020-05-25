@@ -5,15 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
     <title>Alex Zhorov</title>
-<!--    Open Graph-->
+    <!--    Open Graph-->
     <meta property="og:title" content="Frontend Developer Alex Zhorov">
     <meta property="og:site_name" content="Website design and development">
     <meta property="og:url" content="https://aliakseizhorau.web.app/">
     <meta property="og:description" content="Portfolio Front-End Developer Alex Zhorov">
-    <meta property="og:image"
-          content="https://aliakseizhorau.web.app/src/img/myproject/myPortf.jpg">
-    <meta property="og:image:width" content="400" />
-    <meta property="og:image:height" content="300" />
+    <meta property="og:image" content="//aliakseizhorau.web.app/src/img/myproject/myPortf.jpg"/>
+    <meta property="og:image:secure_url" content="https://aliakseizhorau.web.app/src/img/myproject/myPortf.jpg"/>
+    <meta property="og:image:type" content="image/jpeg"/>
+    <meta property="og:image:width" content="400"/>
+    <meta property="og:image:height" content="300"/>
     <link rel='stylesheet' href='dist/style.css'>
     <link rel="shortcut icon" href="src/img/ico/ubuntu.svg" type="image/png">
     <!--    slick-Slider css-->
@@ -45,7 +46,7 @@
             <span>Menu</span>
         </div>
         <nav class="header-box__nav-box">
-            <ul class="header-box__nav-box--ul">
+            <ul class="header-box__nav-box--ul hidden-menu">
                 <li class="header-box__nav-box--ul__li">
                     <a class="about" href="#About">About me</a>
                 </li>
@@ -348,65 +349,13 @@
         </div>
     </div>
     <h3 id="experience" class="skills__label">My project:</h3>
-
-
     <div class="box__project-slider">
-
         <div class="slick-slider">
-
             <div class="slick-slider__item ">
                 <div class="slick-slider__item--img">
                     <picture>
-                        <source media="(max-width: 768px)" srcset="src/img/myproject/syvsp.png">
-                        <source srcset="src/img/myproject/syvsp.png">
-                        <img src="src/img/myproject/syvsp.png" alt="cert">
-                    </picture>
-                </div>
-                <div class="slick-slider__item--text">
-                    <h3>PrestaShop development.</h3>
-                    <p>At Syvspring, you can find all new and stylish boots for your child’s needs: from suede shoes,
-                        rubber boots to shoes sneakers, winter boots or sandals.</p>
-                </div>
-                <a href="https://www.syvspring.dk/" target="_blank">look live --></a>
-            </div>
-            <div class="slick-slider__item ">
-                <div class="slick-slider__item--img">
-                    <picture>
-                        <source media="(max-width: 768px)" srcset="src/img/myproject/svile.png">
-                        <source srcset="src/img/myproject/svile.png">
-                        <img src="src/img/myproject/svile.png" alt="cert">
-                    </picture>
-                </div>
-                <div class="slick-slider__item--text">
-                    <h3>Magento 2 frontend development.</h3>
-                    <p>The Savile Row Company is a global online retailer of fine luxury goods with a focus on
-                        menswear.</p>
-                </div>
-                <a href="https://savilerowco.com/" target="_blank">look live --></a>
-            </div>
-            <div class="slick-slider__item ">
-                <div class="slick-slider__item--img">
-                    <picture>
-                        <source media="(max-width: 768px)" srcset="src/img/myproject/lashtrays.png">
-                        <source srcset="src/img/myproject/lashtrays.png">
-                        <img src="src/img/myproject/lashtrays.png">
-                    </picture>
-                </div>
-                <div class="slick-slider__item--text">
-                    <h3>Magento 2 frontend development.</h3>
-                    <p>Lashtrays is created together with professional eyelash technicians to bring the best eyelash
-                        extension supplies to lashartists across the world.</p>
-                </div>
-                <a href="https://lashtrays.ee/" target="_blank">look live --></a>
-            </div>
-
-
-            <!--псевдослайды-->
-            <div class="slick-slider__item ">
-                <div class="slick-slider__item--img">
-                    <picture>
-                        <source media="(max-width: 768px)" srcset="src/img/myproject/syvsp.png">
-                        <source srcset="src/img/myproject/syvsp.png">
+                        <source media="(max-width: 768px)" srcset="src/img/myproject/syvsp.jpg">
+                        <source srcset="src/img/myproject/syvsp.jpg">
                         <img src="src/img/myproject/syvsp.jpg" alt="cert">
                     </picture>
                 </div>
@@ -420,8 +369,8 @@
             <div class="slick-slider__item ">
                 <div class="slick-slider__item--img">
                     <picture>
-                        <source media="(max-width: 768px)" srcset="src/img/myproject/svile.png">
-                        <source srcset="src/img/myproject/svile.png">
+                        <source media="(max-width: 768px)" srcset="src/img/myproject/svile.jpg">
+                        <source srcset="src/img/myproject/svile.jpg">
                         <img src="src/img/myproject/svile.jpg" alt="cert">
                     </picture>
                 </div>
@@ -435,8 +384,8 @@
             <div class="slick-slider__item ">
                 <div class="slick-slider__item--img">
                     <picture>
-                        <source media="(max-width: 768px)" srcset="src/img/myproject/lashtrays.png">
-                        <source srcset="src/img/myproject/lashtrays.png">
+                        <source media="(max-width: 768px)" srcset="src/img/myproject/lashtrays.jpg">
+                        <source srcset="src/img/myproject/lashtrays.jpg">
                         <img src="src/img/myproject/lashtrays.jpg">
                     </picture>
                 </div>
@@ -447,90 +396,132 @@
                 </div>
                 <a href="https://lashtrays.ee/" target="_blank">look live --></a>
             </div>
-
-
-        </div>
-
-<!-- ОПТИМИЗИРОВАТЬ ИКОНКИ!!!!!!!!!!!!!!!!!!!!-->
-
-<!--        <div>-->
-<!--            My company:-->
-<!--            <hr/>-->
-<!--            My last companys:-->
-<!--            <hr/>-->
-<!--            My life:-->
-<!--            <hr/>-->
-<!--            My sport:-->
-<!--            <hr/>-->
-<!--        </div>-->
-
-
-        <footer>
-            <div class="contacts" id="contacts">
-                <h3 class="mobile-visible">Contacts:</h3>
-                <ul class="contacts__ul--box-items">
-                    <li class="contacts__ul--box-items__item">
-                        <h3 class="contacts__ul--box-items__label">Contacts:</h3>
-                        <ul>
-                            <li><a class="phone" href="tel:+375293767082">Phone</a>
-                            </li>
-                            <li><a class="email"
-                                   href="mailto:3767082@mail.ru">Email</a></li>
-                        </ul>
-                    </li>
-                    <li class="contacts__ul--box-items__item">
-                        <h3 class="contacts__ul--box-items__label">Mesengers:</h3>
-                        <ul>
-                            <li><a class="telegram"
-                                   href="tg://resolve?domain=+375293767082">Telegram</a>
-                            </li>
-                            <li class="desktop-visible-flex"><a class="viber"
-                                                                href="viber://chat?number=+375293767082">Vider</a>
-                            </li>
-                            <li class="desktop-visible-flex"><a class="skype"
-                                                                href="skype:zhorovalex?call">Skype</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="contacts__ul--box-items__item">
-                        <h3 class="contacts__ul--box-items__label">Socials:</h3>
-                        <ul>
-                            <li><a class="linked"
-                                   href="https://www.linkedin.com/in/alexzhorov"
-                                   target="_blank">Linked</a>
-                            </li>
-                            <li class="desktop-visible-flex"><a class="facebook"
-                                                                href="https://www.facebook.com/alex.zhorov.77"
-                                                                target="_blank">Facebook</a>
-                            </li>
-                            <li class="desktop-visible-flex"><a class="vk"
-                                                                href="https://vk.com/zhorovalex"
-                                                                target="_blank">VK</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="contacts__ul--box-items__item">
-                        <h3 class="contacts__ul--box-items__label">Experience:</h3>
-                        <ul>
-                            <li><a class="git-lub" href="https://gitlab.com/z0r0v">GitLub
-                                Home</a></li>
-                            <li><a class="git-lub"
-                                   href="https://gitlab.com/z0r0vBelVG">GitLub
-                                Work</a></li>
-                            <li><a class="git-hub" href="https://github.com/z0r0v">GitHub</a>
-                            </li>
-                            <li><a class="stackblitz"
-                                   href="https://stackblitz.com/github/z0r0v/DZ">Stackblitz</a>
-                            </li>
-                            <li><a class="codepen"
-                                   href="https://codepen.io/z0r0v/pens/public">Codepen</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
+            <!--псевдослайды-->
+            <div class="slick-slider__item ">
+                <div class="slick-slider__item--img">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="src/img/myproject/syvsp.jpg">
+                        <source srcset="src/img/myproject/syvsp.jpg">
+                        <img src="src/img/myproject/syvsp.jpg" alt="cert">
+                    </picture>
+                </div>
+                <div class="slick-slider__item--text">
+                    <h3>PrestaShop development.</h3>
+                    <p>At Syvspring, you can find all new and stylish boots for your child’s needs: from suede shoes,
+                        rubber boots to shoes sneakers, winter boots or sandals.</p>
+                </div>
+                <a href="https://www.syvspring.dk/" target="_blank">look live --></a>
             </div>
-        </footer>
-        <p>Copyright 2020 aliakseizhorau.web.app</p>
-        <script type="text/javascript" src="dist/bundle.js"></script>
+            <div class="slick-slider__item ">
+                <div class="slick-slider__item--img">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="src/img/myproject/svile.jpg">
+                        <source srcset="src/img/myproject/svile.jpg">
+                        <img src="src/img/myproject/svile.jpg" alt="cert">
+                    </picture>
+                </div>
+                <div class="slick-slider__item--text">
+                    <h3>Magento 2 frontend development.</h3>
+                    <p>The Savile Row Company is a global online retailer of fine luxury goods with a focus on
+                        menswear.</p>
+                </div>
+                <a href="https://savilerowco.com/" target="_blank">look live --></a>
+            </div>
+            <div class="slick-slider__item ">
+                <div class="slick-slider__item--img">
+                    <picture>
+                        <source media="(max-width: 768px)" srcset="src/img/myproject/lashtrays.jpg">
+                        <source srcset="src/img/myproject/lashtrays.jpg">
+                        <img src="src/img/myproject/lashtrays.jpg">
+                    </picture>
+                </div>
+                <div class="slick-slider__item--text">
+                    <h3>Magento 2 frontend development.</h3>
+                    <p>Lashtrays is created together with professional eyelash technicians to bring the best eyelash
+                        extension supplies to lashartists across the world.</p>
+                </div>
+                <a href="https://lashtrays.ee/" target="_blank">look live --></a>
+            </div>
+        </div>
+    </div>
+    <!-- ОПТИМИЗИРОВАТЬ ИКОНКИ!!!!!!!!!!!!!!!!!!!!-->
+    <!--        <div>-->
+    <!--            My company:-->
+    <!--            <hr/>-->
+    <!--            My last companys:-->
+    <!--            <hr/>-->
+    <!--            My life:-->
+    <!--            <hr/>-->
+    <!--            My sport:-->
+    <!--            <hr/>-->
+    <!--        </div>-->
+
+    <footer>
+        <div class="contacts" id="contacts">
+            <h3 class="mobile-visible">Contacts:</h3>
+            <ul class="contacts__ul--box-items">
+                <li class="contacts__ul--box-items__item">
+                    <h3 class="contacts__ul--box-items__label">Contacts:</h3>
+                    <ul>
+                        <li><a class="phone" href="tel:+375293767082">Phone</a>
+                        </li>
+                        <li><a class="email"
+                               href="mailto:3767082@mail.ru">Email</a></li>
+                    </ul>
+                </li>
+                <li class="contacts__ul--box-items__item">
+                    <h3 class="contacts__ul--box-items__label">Mesengers:</h3>
+                    <ul>
+                        <li><a class="telegram"
+                               href="tg://resolve?domain=+375293767082">Telegram</a>
+                        </li>
+                        <li class="desktop-visible-flex"><a class="viber"
+                                                            href="viber://chat?number=+375293767082">Vider</a>
+                        </li>
+                        <li class="desktop-visible-flex"><a class="skype"
+                                                            href="skype:zhorovalex?call">Skype</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="contacts__ul--box-items__item">
+                    <h3 class="contacts__ul--box-items__label">Socials:</h3>
+                    <ul>
+                        <li><a class="linked"
+                               href="https://www.linkedin.com/in/alexzhorov"
+                               target="_blank">Linked</a>
+                        </li>
+                        <li class="desktop-visible-flex"><a class="facebook"
+                                                            href="https://www.facebook.com/alex.zhorov.77"
+                                                            target="_blank">Facebook</a>
+                        </li>
+                        <li class="desktop-visible-flex"><a class="vk"
+                                                            href="https://vk.com/zhorovalex"
+                                                            target="_blank">VK</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="contacts__ul--box-items__item">
+                    <h3 class="contacts__ul--box-items__label">Experience:</h3>
+                    <ul>
+                        <li><a class="git-lub" href="https://gitlab.com/z0r0v">GitLub
+                            Home</a></li>
+                        <li><a class="git-lub"
+                               href="https://gitlab.com/z0r0vBelVG">GitLub
+                            Work</a></li>
+                        <li><a class="git-hub" href="https://github.com/z0r0v">GitHub</a>
+                        </li>
+                        <li><a class="stackblitz"
+                               href="https://stackblitz.com/github/z0r0v/DZ">Stackblitz</a>
+                        </li>
+                        <li><a class="codepen"
+                               href="https://codepen.io/z0r0v/pens/public">Codepen</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <p>Copyright 2020 aliakseizhorau.web.app</p>
+    <script type="text/javascript" src="dist/bundle.js"></script>
 </body>
 </html>

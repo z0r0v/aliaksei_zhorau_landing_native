@@ -48,7 +48,6 @@
         max-width: rem(50px);
         max-height: 50px;
         margin: auto 0;
-
         display: flex;
         img {
           width: 100%;
@@ -83,13 +82,11 @@
     &__nav-box {
       width: 100%;
       margin-top: 0;
-
       @include mq($from: desktop) {
         margin-top: rem(20px);
         padding-bottom: rem(7px);
         border-bottom: 2px solid $tins-black-color;
       }
-
       @include mq($from: wide) {
         width: 65%;
         padding-bottom: rem(15px);
@@ -102,7 +99,6 @@
         flex-direction: column;
         list-style: none;
         align-items: normal;
-
         @include mq($from: desktop) {
           display: flex;
           transform: translateY(0);
@@ -141,7 +137,6 @@
                 border-bottom: 2px solid $ubuntu-red-color;
               }
             }
-
             &::before {
               left: 0;
               padding: 2px;
@@ -175,7 +170,6 @@
             &::before {
               background-size: rem(25px 25px);
             }
-
           }
         }
         $bottom-height: rem(3px);
@@ -184,7 +178,7 @@
           position: relative;
           padding-bottom: 0;
           border-bottom: $bottom-height solid $tins-black-color;
-         @extend .mobile-visible;
+          @extend .mobile-visible;
           &::before {
             position: absolute;
             width: rem(10px);
@@ -207,32 +201,8 @@
           }
         }
       }
-      &--ul.show-menu {
-        display: flex;
-        animation: showBlock 0.5s linear forwards, topSlick 0.3s linear forwards;
-        z-index: 0;
-      }
-
-      @keyframes showBlock {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-      @keyframes topSlick {
-        0% {
-          margin-top: -80px;
-        }
-        100% {
-          margin-top: 0;
-        }
-      }
-
     }
   }
-
   .header-box.maxDown {
     .mobile-menu {
       position: fixed;
@@ -240,30 +210,19 @@
       left: 0;
       margin: 0;
       z-index: 3;
-
       @include mq($until: tablet) {
         min-width: 72.5%;
       }
-
     }
-
-
-    .header-box__nav-box{
+    .header-box__nav-box {
       position: fixed;
       z-index: 2;
       background-color: white;
       transform: translateY(-20px);
-
-
-        top:0;
-        left: 0;
-        padding-bottom: rem(5px);
-
-
-
+      top: 0;
+      left: 0;
+      padding-bottom: rem(5px);
     }
-
   }
-
 }
 

@@ -5,17 +5,26 @@ const data = {
     burger: '.mobile-menu__burger',
     span: '.mobile-menu span',
     ul: '.header-box__nav-box--ul',
+    a: '.header-box__nav-box--ul__li a',
+    minClientWidth: 970
 };
 
 const methods = {
-    toggleClassElem: function (elem, elemTo, addClass) {
+    toggleClassElem: function (elem, elemTo, elemLink) {
         elem.on("click", function () {
-            elemTo.toggleClass(addClass);
+            elemTo.slideToggle("slow");
         });
-    }
+
+        if (document.body.clientWidth < data.minClientWidth) {
+            elemLink.on("click", function () {
+                elemTo.slideUp("slow");
+            });
+        }
+    },
 };
 
-methods.toggleClassElem($(data.burger), $(data.ul), "show-menu");
-methods.toggleClassElem($(data.span), $(data.ul), "show-menu");
+const {burger, ul, a, span} = data;
 
+methods.toggleClassElem($(burger), $(ul), $(a));
+methods.toggleClassElem($(span), $(ul), $(a));
 
