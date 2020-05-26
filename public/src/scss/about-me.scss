@@ -1,0 +1,45 @@
+@import "reimport";
+.box__about-me {
+  display: flex;
+  flex-wrap: wrap;
+  &--img {
+    img  {
+      width: 100%;
+    }
+    width: 100%;
+    @include mq($from: desktop) {
+      width: 50%;
+    }
+  }
+  &--text {
+    width: 100%;
+    @include mq($from: desktop) {
+      width: 50%;
+    }
+    &__mySkills {
+      display: none;
+      @include mq($from: desktop) {
+        display: block;
+      }
+    }
+    &__toggle-mySkills {
+      width: 95%;
+      padding: rem(10px 20px);
+      margin: rem(10px) auto;
+      display: block;
+      &::before {
+        content: "Show";
+      }
+      @include mq($from: desktop) {
+        display: none;
+      }
+    }
+
+    &__toggle-mySkills.active {
+      &::before {
+        content: "Hide";
+      }
+    }
+
+  }
+}

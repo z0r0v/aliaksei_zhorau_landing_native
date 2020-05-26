@@ -9,6 +9,19 @@
   }
 }
 
+.btn {
+  border: rem(1px) solid $tins-black-color ;
+  border-radius: rem(5px);
+  background-color: $grey-color;
+  color: $tins-black-color;
+}
+
+.btn.active {
+  background-color: $tins-black-color;
+  color: $white-color;
+}
+
+
 .centered-absolute {
   top:50%;
   left: 50%;  transform: translate(-50% -50%);

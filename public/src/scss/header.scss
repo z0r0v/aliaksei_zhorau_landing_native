@@ -2,9 +2,10 @@
 .header {
   margin-top: 0;
   padding-bottom: rem(20px);
-  padding-top: rem(60px);
+  padding-top: 0;
   @include mq($from: desktop) {
     margin-top: rem(20px);
+    padding-top: rem(60px);
   }
   .header-box {
     display: flex;

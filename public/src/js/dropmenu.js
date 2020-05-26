@@ -6,7 +6,9 @@ const data = {
     span: '.mobile-menu span',
     ul: '.header-box__nav-box--ul',
     a: '.header-box__nav-box--ul__li a',
-    minClientWidth: 970
+    minClientWidth: 970,
+    button: ".box__about-me--text__toggle-mySkills",
+    skills: ".box__about-me--text__mySkills",
 };
 
 const methods = {
@@ -21,10 +23,20 @@ const methods = {
             });
         }
     },
+
+    toggleButton: function (elem, elemTo) {
+        elem.on("click", function () {
+            elemTo.slideToggle("slow");
+            elem.toggleClass("active");
+        });
+    },
+
 };
 
-const {burger, ul, a, span} = data;
-
+const {burger, ul, a, span, button, skills} = data;
 methods.toggleClassElem($(burger), $(ul), $(a));
 methods.toggleClassElem($(span), $(ul), $(a));
+
+methods.toggleButton($(button), $(skills));
+
 
