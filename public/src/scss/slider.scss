@@ -214,6 +214,7 @@
 }
 .box__project-slider {
   .slick-track {
+    height: rem(710px);
     @include mq($from: desktop) {
       height: rem(510px);
     }
