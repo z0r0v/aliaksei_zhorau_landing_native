@@ -160,11 +160,13 @@ const methods = {
     }
 };
 
-const speadSliders = 3000;
+const autoplaySpeed = 3000;
+const autoplay = false;
+
 
 const skilsConfig = {
-    autoplay: true,
-    autoplaySpeed: speadSliders,
+    autoplay: autoplay,
+    autoplaySpeed: autoplaySpeed,
     arrows: false,
     pauseOnFocus: true,
     speed: 500,
@@ -175,8 +177,8 @@ const skilsConfig = {
 const certConfig = skilsConfig;
 
 const projectСonfig = {
-    autoplay: true,
-    autoplaySpeed: speadSliders,
+    autoplay: autoplay,
+    autoplaySpeed: autoplaySpeed,
     centerMode: true,
     centerPadding: '60px',
     slidesToShow: 3,
@@ -187,7 +189,7 @@ const projectСonfig = {
                 arrows: false,
                 centerMode: true,
                 centerPadding: '10px',
-                slidesToShow: 3
+                slidesToShow: 2
             }
         },
         {

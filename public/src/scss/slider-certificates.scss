@@ -4,8 +4,11 @@
     &__item {
       &--img {
         picture img {
-          width: 70%;
+          width: 100%;
           margin: 0 auto;
+          @include mq($from: tablet) {
+            width: 80%;
+          }
           @include mq($from: desktop) {
             width: 50%;
           }
@@ -13,7 +16,7 @@
       }
       &--text {
         margin: 0 auto;
-        width: 70%;
+        width: 90%;
         @include mq($from: desktop) {
           width: 60%;
         }
