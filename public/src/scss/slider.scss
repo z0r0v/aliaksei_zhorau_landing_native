@@ -79,41 +79,76 @@
       color: $pColor;
     }
   }
+  @mixin slide-color($color, $h2Color:$tins-black-color, $h3Color:$tins-black-color, $pColor:$tins-black-color) {
+    background-image: none;
+    background-color: $color;
+    h2 {
+      color: $h2Color;
+    }
+    h3 {
+      color: $h3Color;
+    }
+    p {
+      color: $pColor;
+    }
+  }
+
   .slick-slider__item.javascript {
-    $url: "../img/banners/js.jpg";
-    @include slide-img($url, $tins-black-color, white, $js-color);
+    @include slide-color(#FBD601, $tins-black-color, white, $js-color);
+    @include mq($from: desktop) {
+      $url: "../img/banners/js.jpg";
+      @include slide-img($url, $tins-black-color, white, $js-color);
+    }
   }
   .slick-slider__item.jquery {
-    $url: "../img/banners/jquery.jpg";
-    @include slide-img($url, $tins-black-color, white);
+    @include slide-color(#006AB0, $tins-black-color, white);
+    @include mq($from: desktop) {
+      $url: "../img/banners/jquery.jpg";
+      @include slide-img($url, $tins-black-color, white);
+    }
   }
   .slick-slider__item.vue {
     $url: "../img/banners/vue.jpg";
     @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.sass {
+    @include slide-color(#B56989, $tins-black-color, white);
+    @include mq($from: desktop) {
     $url: "../img/banners/scss.jpg";
     @include slide-img($url, $tins-black-color, white);
+    }
+
   }
   .slick-slider__item.less {
     $url: "../img/banners/less.jpg";
     @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.magento {
-    $url: "../img/banners/magento2.jpg";
-    @include slide-img($url, $tins-black-color, white);
+    @include slide-color(#F16F24, $tins-black-color, white);
+    @include mq($from: desktop) {
+      $url: "../img/banners/magento2.jpg";
+      @include slide-img($url, $tins-black-color, white);
+    }
   }
   .slick-slider__item.prestashop {
-    $url: "../img/banners/presto.jpg";
-    @include slide-img($url, $tins-black-color, white);
+    @include slide-color(#A0DBE8, $tins-black-color, white);
+    @include mq($from: desktop) {
+      $url: "../img/banners/presto.jpg";
+      @include slide-img($url, $tins-black-color, white);
+    }
+
   }
   .slick-slider__item.html5 {
     $url: "../img/banners/html5.jpg";
     @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.css {
-    $url: "../img/banners/css3.jpg";
-    @include slide-img($url, $css-blue-color, white, $css-blue-color);
+
+    @include slide-color(#30ACE0, $css-blue-color, white, $css-blue-color);
+    @include mq($from: desktop) {
+      $url: "../img/banners/css3.jpg";
+      @include slide-img($url, $css-blue-color, white, $css-blue-color);
+    }
   }
   .slick-slider__item.flex-box {
     $url: "../img/banners/flexbox.jpg";
@@ -132,24 +167,34 @@
     @include slide-img($url, $tins-black-color, white);
   }
   .slick-slider__item.webpack {
-    $url: "../img/banners/webpack.jpg";
-    @include slide-img($url, white, white, white);
+    @include slide-color(#222222, white, white, white);
+    @include mq($from: desktop) {
+      $url: "../img/banners/webpack.jpg";
+      @include slide-img($url, white, white, white);
+    }
   }
   .slick-slider__item.compass {
     $url: "../img/banners/compass.jpg";
     @include slide-img($url, white, white, white);
   }
   .slick-slider__item.mysql {
-    $url: "../img/banners/mysql.jpg";
-    @include slide-img($url, $tins-black-color, white);
+    @include slide-color(#EDEDED, $tins-black-color, white);
+    @include mq($from: desktop) {
+      $url: "../img/banners/mysql.jpg";
+      @include slide-img($url, $tins-black-color, white);
+    }
   }
   .slick-slider__item.apatche {
     $url: "../img/banners/apatche2.jpg";
     @include slide-img($url, $tins-black-color, $tins-black-color);
   }
   .slick-slider__item.nginx {
-    $url: "../img/banners/nginx.jpg";
-    @include slide-img($url, white, white, white);
+    @include slide-color(#000000, white, white, white);
+    @include mq($from: desktop) {
+      $url: "../img/banners/nginx.jpg";
+      @include slide-img($url, white, white, white);
+    }
+
   }
   .slick-slider__item.git {
     $url: "../img/banners/git.jpg";
@@ -184,117 +229,4 @@
     @include slide-img($url);
   }
 }
-.box__certificates-slider {
-  .slick-slider {
-    &__item {
-      &--img {
-        picture img {
-          width: 70%;
-          margin: 0 auto;
-          @include mq($from: desktop) {
-            width: 50%;
-          }
-        }
-      }
-      &--text {
-        margin: 0 auto;
-        width: 70%;
-        @include mq($from: desktop) {
-          width: 60%;
-        }
-        a {
-          text-decoration: underline;
-        }
-      }
-    }
-    .slick-dots {
-      display: none !important;
-    }
-  }
-}
-.box__project-slider {
-  .slick-track {
-    height: rem(710px);
-    @include mq($from: desktop) {
-      height: rem(510px);
-    }
-  }
-  .slick-slider {
-    .slick-slide {
-      margin-top: 0;
-      @include mq($from: desktop) {
-        margin-top: rem(30px);
-      }
-    }
-    &__item {
-      &--a {
-        display: none;
-        margin-bottom: rem(20px);
-        margin-right: rem(10px);
-        text-align: right;
-        font-size: rem(14px);
-        text-decoration: underline;
-        @include mq($from: desktop) {
-          display: none;
-        }
-        @include mq($from: tablet) {
-          display: none;
-        }
-      }
-      width: 200px;
-      &--img {
-        height: rem(130px);
-        overflow: hidden;
-        @include mq($from: desktop) {
-          height: rem(250px);
-        }
-        picture img {
-          width: 100%;
-          margin: 20px auto;
-          @include mq($from: desktop) {
-            width: 90%;
-          }
-        }
-      }
-      &--text {
-        margin: 0 auto;
-        width: 100%;
-        @include mq($from: desktop) {
-          width: 60%;
-        }
-        @include mq($from: tablet) {
-          width: 100%;
-          h3 {
-            padding: rem(0 15px);
-            font-size: rem(16px);
-          }
-          p {
-            padding: rem(0 15px);
-            min-height: rem(130px);
-            font-size: rem(14px);
-          }
-        }
-      }
-    }
-    .slick-dots {
-      display: none !important;
-    }
-  }
-  .slick-slide.slick-center {
-    margin-top: rem(12px);
-    .slick-slider__item {
-      border: 4px solid $grey-color;
-      -moz-box-sizing: border-box; /* Для Firefox */
-      -webkit-box-sizing: border-box; /* Для Safari и Chrome */
-      box-sizing: border-box; /* Для IE и Opera */
-      &--a {
-        display: block;
-      }
-    }
-    background-color: $white-color;
-    transform: scale(1.05);
-    picture img {
-      height: rem(200px);
-    }
-  }
-}
+
