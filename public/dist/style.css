@@ -2,7 +2,8 @@
   border: 1px solid #191919;
   border-radius: 5px;
   background-color: #f4f7fa;
-  color: #191919; }
+  color: #191919;
+  cursor: pointer; }
 
 .btn.active {
   background-color: #191919;
@@ -104,7 +105,8 @@ body {
   border: 1px solid #191919;
   border-radius: 5px;
   background-color: #f4f7fa;
-  color: #191919; }
+  color: #191919;
+  cursor: pointer; }
 
 .btn.active {
   background-color: #191919;
@@ -168,11 +170,13 @@ body {
       z-index: 1;
       box-shadow: 10px 0 0 0 #191919, -10px 0 0 0 #191919; }
       .header .header-box .mobile-menu span {
-        margin: auto 45px; }
+        margin: auto 45px;
+        cursor: pointer; }
       .header .header-box .mobile-menu__burger {
         position: absolute;
         padding: 4px;
-        border: 1px solid white; }
+        border: 1px solid white;
+        cursor: pointer; }
         .header .header-box .mobile-menu__burger--line {
           width: 25px;
           height: 2px;
@@ -351,7 +355,8 @@ body {
   border: 1px solid #191919;
   border-radius: 5px;
   background-color: #f4f7fa;
-  color: #191919; }
+  color: #191919;
+  cursor: pointer; }
 
 .btn.active {
   background-color: #191919;
@@ -535,7 +540,8 @@ footer {
   border: 1px solid #191919;
   border-radius: 5px;
   background-color: #f4f7fa;
-  color: #191919; }
+  color: #191919;
+  cursor: pointer; }
 
 .btn.active {
   background-color: #191919;
@@ -796,7 +802,8 @@ footer {
   border: 1px solid #191919;
   border-radius: 5px;
   background-color: #f4f7fa;
-  color: #191919; }
+  color: #191919;
+  cursor: pointer; }
 
 .btn.active {
   background-color: #191919;
@@ -1244,7 +1251,8 @@ footer {
   border: 1px solid #191919;
   border-radius: 5px;
   background-color: #f4f7fa;
-  color: #191919; }
+  color: #191919;
+  cursor: pointer; }
 
 .btn.active {
   background-color: #191919;

@@ -21,11 +21,13 @@
       box-shadow: rem(10px 0 0 0) $tins-black-color, rem(-10px 0 0 0) $tins-black-color;
       span {
         margin: auto rem(45px);
+        cursor: pointer;
       }
       &__burger {
         position: absolute;
         padding: rem(4px);
         border: 1px solid white;
+        cursor: pointer;
         @extend .vertical-centered-absolute;
         &--line {
           width: rem(25px);
