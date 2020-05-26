@@ -2,10 +2,9 @@
 .box__about-me {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
   &--img {
-    height: auto;
-    overflow: hidden;
-    box-sizing: border-box;
     img {
       width: 50%;
       display: block;
@@ -17,8 +16,6 @@
     width: 100%;
     @include mq($from: desktop) {
       width: 50%;
-      height: rem(850px);
-      overflow: visible;
     }
   }
   &--text {

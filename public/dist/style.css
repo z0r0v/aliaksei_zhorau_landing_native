@@ -1297,11 +1297,10 @@ footer {
 
 .box__about-me {
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center; }
   .box__about-me--img {
-    height: auto;
-    overflow: hidden;
-    box-sizing: border-box;
     width: 100%; }
     .box__about-me--img img {
       width: 50%;
@@ -1312,9 +1311,7 @@ footer {
           width: 100%; } }
     @media (min-width: 61.25em) {
       .box__about-me--img {
-        width: 50%;
-        height: 850px;
-        overflow: visible; } }
+        width: 50%; } }
   .box__about-me--text {
     width: 100%;
     box-sizing: border-box;
