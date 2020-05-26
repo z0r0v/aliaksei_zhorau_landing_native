@@ -36,7 +36,6 @@ const methods = {
 const {burger, ul, a, span, button, skills} = data;
 methods.toggleClassElem($(burger), $(ul), $(a));
 methods.toggleClassElem($(span), $(ul), $(a));
-
 methods.toggleButton($(button), $(skills));
 
 

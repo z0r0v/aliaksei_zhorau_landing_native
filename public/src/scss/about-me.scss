@@ -3,24 +3,29 @@
   display: flex;
   flex-wrap: wrap;
   &--img {
-    //border: 1px solid red;
+    height: auto;
+    overflow: hidden;
     box-sizing: border-box;
-    margin: auto;
-    img  {
-      width: 100%;
+    img {
+      width: 50%;
+      display: block;
+      margin: 0 auto;
+      @include mq($from: desktop) {
+        width: 100%;
+      }
     }
     width: 100%;
     @include mq($from: desktop) {
       width: 50%;
+      height: rem(850px);
+      overflow: visible;
     }
   }
   &--text {
-    //border: 1px solid red;
     width: 100%;
     box-sizing: border-box;
     padding-left: 0;
-    margin: auto;
-    h2,h3,h4, p, ul {
+    h2, h3, h4, p, ul {
       margin: rem(7px 0);
     }
     ul {
@@ -34,8 +39,6 @@
         }
       }
     }
-
-
     @include mq($from: desktop) {
       width: 50%;
       padding-left: rem(20px);
@@ -58,12 +61,10 @@
         display: none;
       }
     }
-
     &__toggle-mySkills.active {
       &::before {
         content: "Hide";
       }
     }
-
   }
 }

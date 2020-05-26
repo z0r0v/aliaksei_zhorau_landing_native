@@ -186,7 +186,7 @@ const projectСonfig = {
             settings: {
                 arrows: false,
                 centerMode: true,
-                centerPadding: '60px',
+                centerPadding: '10px',
                 slidesToShow: 3
             }
         },
