@@ -161,7 +161,7 @@ const methods = {
 };
 
 const autoplaySpeed = 3000;
-const autoplay = false;
+const autoplay = true;
 
 
 const skilsConfig = {

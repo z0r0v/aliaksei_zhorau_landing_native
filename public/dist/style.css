@@ -859,7 +859,7 @@ footer {
       margin: 0 auto; }
       @media (min-width: 61.25em) {
         .box__about-me--img img {
-          width: 100%; } }
+          width: 50%; } }
     @media (min-width: 61.25em) {
       .box__about-me--img {
         width: 50%; } }

@@ -2,10 +2,7 @@
   "hosting": {
     "public": "public",
     "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**",
-      "!**/node_modules/slick-carousel"
+      "firebase.json"
     ],
     "rewrites": [
       {
