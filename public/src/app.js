@@ -15,6 +15,7 @@ import './js/unicorns.js';
 import './js/slider.js';
 import './js/dropmenu.js';
 import './js/scroll.js';
+import  './js/lazy-loading.js';
 
 
 
