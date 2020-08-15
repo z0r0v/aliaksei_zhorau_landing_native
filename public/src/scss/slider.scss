@@ -66,16 +66,13 @@
       z-index: -1;
       display: none;
       @include mq($from: tablet) {
-      display: block;
+        display: block;
       }
     }
   }
 
-  //$url:"../img/banners/505slider.jpg",
   @mixin slide-img($h2Color:$tins-black-color, $h3Color:$tins-black-color, $pColor:$tins-black-color) {
     @extend .slides;
-    //background-image: url($url);
-
     .slick-slider__item--text {
       &::before {
         background-color: $h3Color;
@@ -107,12 +104,19 @@
       color: $pColor;
     }
   }
-
   .slick-slider__item.javascript {
     @include slide-color(#FBD601, $tins-black-color, white, $js-color);
     @include mq($from: desktop) {
       @include slide-img($tins-black-color, white, $js-color);
     }
+  }
+
+  .slick-slider__item.vue {
+    @include slide-img($tins-black-color, white);
+  }
+
+  .slick-slider__item.react {
+    @include slide-color($react-color, white, white, $react-color-text);
   }
   .slick-slider__item.jquery {
     @include slide-color(#006AB0, $tins-black-color, white);
@@ -120,13 +124,11 @@
       @include slide-img($tins-black-color, white);
     }
   }
-  .slick-slider__item.vue {
-    @include slide-img($tins-black-color, white);
-  }
+
   .slick-slider__item.sass {
     @include slide-color(#B56989, $tins-black-color, white);
     @include mq($from: desktop) {
-    @include slide-img($tins-black-color, white);
+      @include slide-img($tins-black-color, white);
     }
   }
   .slick-slider__item.less {
@@ -143,7 +145,6 @@
     @include mq($from: desktop) {
       @include slide-img($tins-black-color, white);
     }
-
   }
   .slick-slider__item.html5 {
     @include slide-img($tins-black-color, white);
@@ -189,7 +190,6 @@
     @include mq($from: desktop) {
       @include slide-img(white, white, white);
     }
-
   }
   .slick-slider__item.git {
     @include slide-img(white, white, white);

@@ -17,111 +17,111 @@ const methods = {
         function issJavascript() {
             methods.getDots("00");
         }
-
-        function isJquery() {
+        function isVue() {
             methods.getDots("01");
         }
-
-        function isVue() {
+        function isReact() {
             methods.getDots("02");
         }
-
-        function isCss() {
+        function isJquery() {
             methods.getDots("03");
         }
-
-        function isSass() {
+        function isCss() {
             methods.getDots("04");
         }
 
-        function isLess() {
+        function isSass() {
             methods.getDots("05");
         }
 
-        function isFlexBox() {
+        function isLess() {
             methods.getDots("06");
         }
 
-        function isGrid() {
+        function isFlexBox() {
             methods.getDots("07");
         }
 
-        function isHtml() {
+        function isGrid() {
             methods.getDots("08");
         }
 
-        function isGulp() {
+        function isHtml() {
             methods.getDots("09");
         }
 
-        function isGrunt() {
+        function isGulp() {
             methods.getDots("010");
         }
 
-        function isWebpack() {
+        function isGrunt() {
             methods.getDots("011");
         }
 
-        function isCompas() {
+        function isWebpack() {
             methods.getDots("012");
         }
 
-        function isMagento() {
+        function isCompas() {
             methods.getDots("013");
         }
 
-        function isPrestashop() {
+        function isMagento() {
             methods.getDots("014");
         }
 
-        function isMsql() {
+        function isPrestashop() {
             methods.getDots("015");
         }
 
-        function apatche2() {
+        function isMsql() {
             methods.getDots("016");
         }
 
-        function isNginx() {
+        function apatche2() {
             methods.getDots("017");
         }
 
-        function isGit() {
+        function isNginx() {
             methods.getDots("018");
         }
 
-        function isPhp() {
+        function isGit() {
             methods.getDots("019");
         }
 
-        function isXml() {
+        function isPhp() {
             methods.getDots("020");
         }
 
-        function isFigma() {
+        function isXml() {
             methods.getDots("021");
         }
 
-        function isPhotoshop() {
+        function isFigma() {
             methods.getDots("022");
         }
 
-        function isUbuntu() {
+        function isPhotoshop() {
             methods.getDots("023");
         }
 
-        function isWindows() {
+        function isUbuntu() {
             methods.getDots("024");
         }
 
-        function isApple() {
+        function isWindows() {
             methods.getDots("025");
         }
 
+        function isApple() {
+            methods.getDots("026");
+        }
         const slides = {
             'javascript': issJavascript,
-            'jquery': isJquery,
             'vue': isVue,
+            'react': isReact,
+            'jquery': isJquery,
             'css': isCss,
             'sass': isSass,
             'less': isLess,
@@ -161,8 +161,8 @@ const methods = {
 };
 
 const autoplaySpeed = 3000;
-// const autoplay = true;
-const autoplay = false;
+const autoplay = true;
+// const autoplay = false;
 
 
 const skilsConfig = {

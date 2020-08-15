@@ -4,15 +4,20 @@
   flex-wrap: wrap;
   justify-content: center;
   &__item {
-    position: relative;
-    width: rem(70px);
-    height: rem(60px);
-    padding: rem(30px 0 0);
-    border: 2px solid $grey-color;
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: center;
+    width: rem(70px);
+    padding: 15px 0;
+    border: 2px solid $grey-color;
     cursor: pointer;
     background-color: white;
+    picture {
+      img {
+        width: rem(50px);
+        height: rem(50px);
+      }
+    }
     @include mq($from: desktop) {
       width: rem(104px);
     }
@@ -22,121 +27,12 @@
       z-index: 1;
       box-shadow: rem(0px 0px 5px 1px) $shadow-black-color;
     }
-    &::before {
-      top: rem(5px);
-      @extend .horizontal-centered-absolute;
-    }
     p {
-      margin: 0 auto rem(10px);
-      padding: 0 rem(5px);
       font-size: rem(13px);
+      margin-bottom: 0;
       @include mq($from: desktop) {
         font-size: rem(16px);
       }
     }
-  }
-  &__item.magento {
-    $url: "../img/ico/magento.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.presta {
-    $url: "../img/ico/presto.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.html {
-    $url: "../img/ico/html5.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.css {
-    $url: "../img/ico/css3.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.sass {
-    $url: "../img/ico/sass.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.less {
-    $url: "../img/ico/less.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.flex-box {
-    $url: "../img/ico/flexbox.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.grid {
-    $url: "../img/ico/grid.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.gulp {
-    $url: "../img/ico/gulp.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.grunt {
-    $url: "../img/ico/grunt.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.webpack {
-    $url: "../img/ico/webpack.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.compass {
-    $url: "../img/ico/compass.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.javascript {
-    $url: "../img/ico/javascript.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.jquery {
-    $url: "../img/ico/jquery.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.vue {
-    $url: "../img/ico/vue.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.msql {
-    $url: "../img/ico/sql.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.apatche2 {
-    $url: "../img/ico/apache.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.nginx {
-    $url: "../img/ico/nginx.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.git {
-    $url: "../img/ico/git.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.php {
-    $url: "../img/ico/php.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.xml {
-    $url: "../img/ico/xmlsource.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.figma {
-    $url: "../img/ico/figma.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.photoshop {
-    $url: "../img/ico/photoshop.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.ubuntu {
-    $url: "../img/ico/ubuntu.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.windows {
-    $url: "../img/ico/windows.png";
-    @include ico-plaster(50px, $url);
-  }
-  &__item.apple {
-    $url: "../img/ico/aplle.png";
-    @include ico-plaster(50px, $url);
   }
 }
