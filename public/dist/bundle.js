@@ -128,7 +128,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _scs
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/fc08a7c8e9f756cd7a48f41ebe80fb80-apatche2.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/apatche2.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"fc08a7c8e9f756cd7a48f41ebe80fb80.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/apatche2.jpg?");
 
 /***/ }),
 
@@ -140,7 +140,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/1bbf471e0f61fc13da77b08d22521961-aple.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/aple.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"1bbf471e0f61fc13da77b08d22521961.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/aple.jpg?");
 
 /***/ }),
 
@@ -152,7 +152,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/d158fb79c7b355b60c2ca94085911236-compass.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/compass.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"d158fb79c7b355b60c2ca94085911236.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/compass.jpg?");
 
 /***/ }),
 
@@ -164,7 +164,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/e9ae2d5906692d977ac528c79f19d9bd-css3.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/css3.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"e9ae2d5906692d977ac528c79f19d9bd.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/css3.jpg?");
 
 /***/ }),
 
@@ -188,7 +188,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/a69328aed65cc42af7af068e2ad02120-flexbox.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/flexbox.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"a69328aed65cc42af7af068e2ad02120.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/flexbox.jpg?");
 
 /***/ }),
 
@@ -200,7 +200,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/2f0c92a6143945ac47b2abb64b2a81eb-git.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/git.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"2f0c92a6143945ac47b2abb64b2a81eb.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/git.jpg?");
 
 /***/ }),
 
@@ -212,7 +212,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/6aba3b073d41059cfde94c4cd1bfc720-grid.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/grid.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"6aba3b073d41059cfde94c4cd1bfc720.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/grid.jpg?");
 
 /***/ }),
 
@@ -224,7 +224,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/a3458e92f7f919d536a9b76489805b42-grunt.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/grunt.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"a3458e92f7f919d536a9b76489805b42.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/grunt.jpg?");
 
 /***/ }),
 
@@ -236,7 +236,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/e2079a16be3a766432655d6dc5b34097-gulp.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/gulp.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"e2079a16be3a766432655d6dc5b34097.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/gulp.jpg?");
 
 /***/ }),
 
@@ -248,31 +248,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/e6f762851c3fb4f1920008e2d0385e92-html5.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/html5.jpg?");
-
-/***/ }),
-
-/***/ "./src/img/banners/jquery.jpg":
-/*!************************************!*\
-  !*** ./src/img/banners/jquery.jpg ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/29bc1e9d4ec3ca3599645eb4420d14bc-jquery.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/jquery.jpg?");
-
-/***/ }),
-
-/***/ "./src/img/banners/js.jpg":
-/*!********************************!*\
-  !*** ./src/img/banners/js.jpg ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/27b16786c239404a549508b5ba912b78-js.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/js.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"e6f762851c3fb4f1920008e2d0385e92.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/html5.jpg?");
 
 /***/ }),
 
@@ -284,7 +260,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/17f53d5ba0fb44cbc70096e22f64a6f0-less.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/less.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"17f53d5ba0fb44cbc70096e22f64a6f0.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/less.jpg?");
 
 /***/ }),
 
@@ -296,7 +272,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/ff9cc9aeb87b6a6cc61209983bb29ccc-magento2.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/magento2.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"ff9cc9aeb87b6a6cc61209983bb29ccc.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/magento2.jpg?");
 
 /***/ }),
 
@@ -308,7 +284,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/05c46555b445c67301f837792a6b380d-mysql.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/mysql.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"05c46555b445c67301f837792a6b380d.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/mysql.jpg?");
 
 /***/ }),
 
@@ -320,7 +296,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/5b417e98c4dbb96e4c917d535e5b3834-nginx.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/nginx.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"5b417e98c4dbb96e4c917d535e5b3834.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/nginx.jpg?");
 
 /***/ }),
 
@@ -332,7 +308,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/419adacef07c732b6b077d7d7430c4e8-photoshop.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/photoshop.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"419adacef07c732b6b077d7d7430c4e8.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/photoshop.jpg?");
 
 /***/ }),
 
@@ -344,7 +320,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/7d119a4638b8fa4478a9035fe7270a37-php.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/php.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"7d119a4638b8fa4478a9035fe7270a37.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/php.jpg?");
 
 /***/ }),
 
@@ -356,7 +332,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/453ecba126641324c76d5db9f098c7e9-presto.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/presto.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"453ecba126641324c76d5db9f098c7e9.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/presto.jpg?");
 
 /***/ }),
 
@@ -368,7 +344,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/6f96cb9c2c18a977038b86b68dafec2e-scss.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/scss.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"6f96cb9c2c18a977038b86b68dafec2e.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/scss.jpg?");
 
 /***/ }),
 
@@ -380,19 +356,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/29955f8af173d5c2bfd453fea94a0e09-ubuntu.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/ubuntu.jpg?");
-
-/***/ }),
-
-/***/ "./src/img/banners/vue.jpg":
-/*!*********************************!*\
-  !*** ./src/img/banners/vue.jpg ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/3b0ce19d5f3b4e0c30b1cb78626df5b1-vue.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/vue.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"29955f8af173d5c2bfd453fea94a0e09.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/ubuntu.jpg?");
 
 /***/ }),
 
@@ -404,7 +368,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/3376c012d1df4c233bee70152b8f6f42-webpack.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/webpack.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"3376c012d1df4c233bee70152b8f6f42.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/webpack.jpg?");
 
 /***/ }),
 
@@ -416,7 +380,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/7f161b320bfcbc53095eb93abd939f8b-windows.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/windows.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"7f161b320bfcbc53095eb93abd939f8b.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/windows.jpg?");
 
 /***/ }),
 
@@ -428,7 +392,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"images/0ec8cfde05addae32c89645b072cf614-xml.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/xml.jpg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"0ec8cfde05addae32c89645b072cf614.jpg\");\n\n//# sourceURL=webpack:///./src/img/banners/xml.jpg?");
 
 /***/ }),
 
@@ -452,7 +416,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_banners_js_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/banners/js.jpg */ \"./src/img/banners/js.jpg\");\n/* harmony import */ var _img_banners_jquery_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/banners/jquery.jpg */ \"./src/img/banners/jquery.jpg\");\n/* harmony import */ var _img_banners_scss_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/banners/scss.jpg */ \"./src/img/banners/scss.jpg\");\n/* harmony import */ var _img_banners_vue_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/banners/vue.jpg */ \"./src/img/banners/vue.jpg\");\n/* harmony import */ var _img_banners_less_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/banners/less.jpg */ \"./src/img/banners/less.jpg\");\n/* harmony import */ var _img_banners_magento2_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/banners/magento2.jpg */ \"./src/img/banners/magento2.jpg\");\n/* harmony import */ var _img_banners_presto_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/banners/presto.jpg */ \"./src/img/banners/presto.jpg\");\n/* harmony import */ var _img_banners_html5_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/banners/html5.jpg */ \"./src/img/banners/html5.jpg\");\n/* harmony import */ var _img_banners_css3_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/banners/css3.jpg */ \"./src/img/banners/css3.jpg\");\n/* harmony import */ var _img_banners_flexbox_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../img/banners/flexbox.jpg */ \"./src/img/banners/flexbox.jpg\");\n/* harmony import */ var _img_banners_grid_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../img/banners/grid.jpg */ \"./src/img/banners/grid.jpg\");\n/* harmony import */ var _img_banners_gulp_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../img/banners/gulp.jpg */ \"./src/img/banners/gulp.jpg\");\n/* harmony import */ var _img_banners_grunt_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../img/banners/grunt.jpg */ \"./src/img/banners/grunt.jpg\");\n/* harmony import */ var _img_banners_webpack_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../img/banners/webpack.jpg */ \"./src/img/banners/webpack.jpg\");\n/* harmony import */ var _img_banners_compass_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/banners/compass.jpg */ \"./src/img/banners/compass.jpg\");\n/* harmony import */ var _img_banners_mysql_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/banners/mysql.jpg */ \"./src/img/banners/mysql.jpg\");\n/* harmony import */ var _img_banners_apatche2_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/banners/apatche2.jpg */ \"./src/img/banners/apatche2.jpg\");\n/* harmony import */ var _img_banners_nginx_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/banners/nginx.jpg */ \"./src/img/banners/nginx.jpg\");\n/* harmony import */ var _img_banners_git_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/banners/git.jpg */ \"./src/img/banners/git.jpg\");\n/* harmony import */ var _img_banners_php_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/banners/php.jpg */ \"./src/img/banners/php.jpg\");\n/* harmony import */ var _img_banners_xml_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/banners/xml.jpg */ \"./src/img/banners/xml.jpg\");\n/* harmony import */ var _img_banners_figma_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../img/banners/figma.jpg */ \"./src/img/banners/figma.jpg\");\n/* harmony import */ var _img_banners_photoshop_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../img/banners/photoshop.jpg */ \"./src/img/banners/photoshop.jpg\");\n/* harmony import */ var _img_banners_ubuntu_jpg__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ../img/banners/ubuntu.jpg */ \"./src/img/banners/ubuntu.jpg\");\n/* harmony import */ var _img_banners_windows_jpg__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ../img/banners/windows.jpg */ \"./src/img/banners/windows.jpg\");\n/* harmony import */ var _img_banners_aple_jpg__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ../img/banners/aple.jpg */ \"./src/img/banners/aple.jpg\");\n\r\n// import img --------------------------------\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst promise = new Promise((resolve, reject) => {\r\n    resolve();\r\n});\r\nconst getBgUrl = (sliderArray) => {\r\n    sliderArray.forEach(function (element) {\r\n        if (window.matchMedia(\"(max-width: 978px)\").matches) {\r\n            _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(`.slick-slider__item.${element.element}`).css(\"background-image\", \"none\");\r\n        } else {\r\n            _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(`.slick-slider__item.${element.element}`).css(\"background-image\", element.url);\r\n        }\r\n    });\r\n}\r\n\r\nconst sliderArray = [\r\n    {element: 'javascript', url: `url(dist/${_img_banners_js_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"]})`},\r\n    {element: 'jquery', url: `url(dist/${_img_banners_jquery_jpg__WEBPACK_IMPORTED_MODULE_2__[\"default\"]})`},\r\n    {element: 'vue', url: `url(dist/${_img_banners_vue_jpg__WEBPACK_IMPORTED_MODULE_4__[\"default\"]})`},\r\n    {element: 'sass', url: `url(dist/${_img_banners_scss_jpg__WEBPACK_IMPORTED_MODULE_3__[\"default\"]})`},\r\n    {element: 'less', url: `url(dist/${_img_banners_less_jpg__WEBPACK_IMPORTED_MODULE_5__[\"default\"]})`},\r\n    {element: 'magento', url: `url(dist/${_img_banners_magento2_jpg__WEBPACK_IMPORTED_MODULE_6__[\"default\"]})`},\r\n    {element: 'prestashop', url: `url(dist/${_img_banners_presto_jpg__WEBPACK_IMPORTED_MODULE_7__[\"default\"]})`},\r\n    {element: 'html5', url: `url(dist/${_img_banners_html5_jpg__WEBPACK_IMPORTED_MODULE_8__[\"default\"]})`},\r\n    {element: 'cssImg', url: `url(dist/${_img_banners_css3_jpg__WEBPACK_IMPORTED_MODULE_9__[\"default\"]})`},\r\n    {element: 'flexBox', url: `url(dist/${_img_banners_flexbox_jpg__WEBPACK_IMPORTED_MODULE_10__[\"default\"]})`},\r\n    {element: 'grid', url: `url(dist/${_img_banners_grid_jpg__WEBPACK_IMPORTED_MODULE_11__[\"default\"]})`},\r\n    {element: 'gulp', url: `url(dist/${_img_banners_gulp_jpg__WEBPACK_IMPORTED_MODULE_12__[\"default\"]})`},\r\n    {element: 'grunt', url: `url(dist/${_img_banners_grunt_jpg__WEBPACK_IMPORTED_MODULE_13__[\"default\"]})`},\r\n    {element: 'webpack', url: `url(dist/${_img_banners_webpack_jpg__WEBPACK_IMPORTED_MODULE_14__[\"default\"]})`},\r\n    {element: 'compass', url: `url(dist/${_img_banners_compass_jpg__WEBPACK_IMPORTED_MODULE_15__[\"default\"]})`},\r\n    {element: 'mysql', url: `url(dist/${_img_banners_mysql_jpg__WEBPACK_IMPORTED_MODULE_16__[\"default\"]})`},\r\n    {element: 'apatche', url: `url(dist/${_img_banners_apatche2_jpg__WEBPACK_IMPORTED_MODULE_17__[\"default\"]})`},\r\n    {element: 'nginx', url: `url(dist/${_img_banners_nginx_jpg__WEBPACK_IMPORTED_MODULE_18__[\"default\"]})`},\r\n    {element: 'git', url: `url(dist/${_img_banners_git_jpg__WEBPACK_IMPORTED_MODULE_19__[\"default\"]})`},\r\n    {element: 'php', url: `url(dist/${_img_banners_php_jpg__WEBPACK_IMPORTED_MODULE_20__[\"default\"]})`},\r\n    {element: 'xml', url: `url(dist/${_img_banners_xml_jpg__WEBPACK_IMPORTED_MODULE_21__[\"default\"]})`},\r\n    {element: 'figma', url: `url(dist/${_img_banners_figma_jpg__WEBPACK_IMPORTED_MODULE_22__[\"default\"]})`},\r\n    {element: 'photoshop', url: `url(dist/${_img_banners_photoshop_jpg__WEBPACK_IMPORTED_MODULE_23__[\"default\"]})`},\r\n    {element: 'ubuntu', url: `url(dist/${_img_banners_ubuntu_jpg__WEBPACK_IMPORTED_MODULE_24__[\"default\"]})`},\r\n    {element: 'windows', url: `url(dist/${_img_banners_windows_jpg__WEBPACK_IMPORTED_MODULE_25__[\"default\"]})`},\r\n    {element: 'apple', url: `url(dist/${_img_banners_aple_jpg__WEBPACK_IMPORTED_MODULE_26__[\"default\"]})`},\r\n];\r\n\r\npromise.then(function () {\r\n    getBgUrl(sliderArray);\r\n    [].forEach.call(document.querySelectorAll('img[data-src]'), function (img) {\r\n        img.setAttribute('src', img.getAttribute('data-src'));\r\n        img.onload = function () {\r\n            img.removeAttribute('data-src');\r\n        };\r\n    });\r\n    [].forEach.call(document.querySelectorAll('img[data-src]'), function (img) {\r\n        img.setAttribute('src', img.getAttribute('data-src'));\r\n        img.onload = function () {\r\n            img.removeAttribute('data-src');\r\n        };\r\n    });\r\n});\n\n//# sourceURL=webpack:///./src/js/lazy-loading.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_banners_scss_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../img/banners/scss.jpg */ \"./src/img/banners/scss.jpg\");\n/* harmony import */ var _img_banners_less_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../img/banners/less.jpg */ \"./src/img/banners/less.jpg\");\n/* harmony import */ var _img_banners_magento2_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../img/banners/magento2.jpg */ \"./src/img/banners/magento2.jpg\");\n/* harmony import */ var _img_banners_presto_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../img/banners/presto.jpg */ \"./src/img/banners/presto.jpg\");\n/* harmony import */ var _img_banners_html5_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../img/banners/html5.jpg */ \"./src/img/banners/html5.jpg\");\n/* harmony import */ var _img_banners_css3_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../img/banners/css3.jpg */ \"./src/img/banners/css3.jpg\");\n/* harmony import */ var _img_banners_flexbox_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../img/banners/flexbox.jpg */ \"./src/img/banners/flexbox.jpg\");\n/* harmony import */ var _img_banners_grid_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../img/banners/grid.jpg */ \"./src/img/banners/grid.jpg\");\n/* harmony import */ var _img_banners_gulp_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../img/banners/gulp.jpg */ \"./src/img/banners/gulp.jpg\");\n/* harmony import */ var _img_banners_grunt_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../img/banners/grunt.jpg */ \"./src/img/banners/grunt.jpg\");\n/* harmony import */ var _img_banners_webpack_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../img/banners/webpack.jpg */ \"./src/img/banners/webpack.jpg\");\n/* harmony import */ var _img_banners_compass_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../img/banners/compass.jpg */ \"./src/img/banners/compass.jpg\");\n/* harmony import */ var _img_banners_mysql_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../img/banners/mysql.jpg */ \"./src/img/banners/mysql.jpg\");\n/* harmony import */ var _img_banners_apatche2_jpg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../img/banners/apatche2.jpg */ \"./src/img/banners/apatche2.jpg\");\n/* harmony import */ var _img_banners_nginx_jpg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../img/banners/nginx.jpg */ \"./src/img/banners/nginx.jpg\");\n/* harmony import */ var _img_banners_git_jpg__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../img/banners/git.jpg */ \"./src/img/banners/git.jpg\");\n/* harmony import */ var _img_banners_php_jpg__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../img/banners/php.jpg */ \"./src/img/banners/php.jpg\");\n/* harmony import */ var _img_banners_xml_jpg__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../img/banners/xml.jpg */ \"./src/img/banners/xml.jpg\");\n/* harmony import */ var _img_banners_figma_jpg__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../img/banners/figma.jpg */ \"./src/img/banners/figma.jpg\");\n/* harmony import */ var _img_banners_photoshop_jpg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ../img/banners/photoshop.jpg */ \"./src/img/banners/photoshop.jpg\");\n/* harmony import */ var _img_banners_ubuntu_jpg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../img/banners/ubuntu.jpg */ \"./src/img/banners/ubuntu.jpg\");\n/* harmony import */ var _img_banners_windows_jpg__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ../img/banners/windows.jpg */ \"./src/img/banners/windows.jpg\");\n/* harmony import */ var _img_banners_aple_jpg__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ../img/banners/aple.jpg */ \"./src/img/banners/aple.jpg\");\n\r\n// import img --------------------------------\r\n// import javascriptImg from '../img/banners/js.jpg';\r\n// import jqueryImg from '../img/banners/jquery.jpg';\r\n// import vueImg from '../img/banners/vue.jpg';\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nconst promise = new Promise((resolve, reject) => {\r\n    resolve();\r\n});\r\nconst getBgUrl = (sliderArray) => {\r\n    sliderArray.forEach(function (element) {\r\n        if (window.matchMedia(\"(max-width: 978px)\").matches) {\r\n            _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(`.slick-slider__item.${element.element}`).css(\"background-image\", \"none\");\r\n        } else {\r\n            _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(`.slick-slider__item.${element.element}`).css(\"background-image\", element.url);\r\n        }\r\n    });\r\n}\r\n\r\nconst sliderArray = [\r\n    // {element: 'javascript', url: `url(dist/${javascriptImg})`},\r\n    // {element: 'jquery', url: `url(dist/${jqueryImg})`},\r\n    // {element: 'vue', url: `url(dist/${vueImg})`},\r\n    {element: 'sass', url: `url(dist/${_img_banners_scss_jpg__WEBPACK_IMPORTED_MODULE_1__[\"default\"]})`},\r\n    {element: 'less', url: `url(dist/${_img_banners_less_jpg__WEBPACK_IMPORTED_MODULE_2__[\"default\"]})`},\r\n    {element: 'magento', url: `url(dist/${_img_banners_magento2_jpg__WEBPACK_IMPORTED_MODULE_3__[\"default\"]})`},\r\n    {element: 'prestashop', url: `url(dist/${_img_banners_presto_jpg__WEBPACK_IMPORTED_MODULE_4__[\"default\"]})`},\r\n    {element: 'html5', url: `url(dist/${_img_banners_html5_jpg__WEBPACK_IMPORTED_MODULE_5__[\"default\"]})`},\r\n    {element: 'cssImg', url: `url(dist/${_img_banners_css3_jpg__WEBPACK_IMPORTED_MODULE_6__[\"default\"]})`},\r\n    {element: 'flexBox', url: `url(dist/${_img_banners_flexbox_jpg__WEBPACK_IMPORTED_MODULE_7__[\"default\"]})`},\r\n    {element: 'grid', url: `url(dist/${_img_banners_grid_jpg__WEBPACK_IMPORTED_MODULE_8__[\"default\"]})`},\r\n    {element: 'gulp', url: `url(dist/${_img_banners_gulp_jpg__WEBPACK_IMPORTED_MODULE_9__[\"default\"]})`},\r\n    {element: 'grunt', url: `url(dist/${_img_banners_grunt_jpg__WEBPACK_IMPORTED_MODULE_10__[\"default\"]})`},\r\n    {element: 'webpack', url: `url(dist/${_img_banners_webpack_jpg__WEBPACK_IMPORTED_MODULE_11__[\"default\"]})`},\r\n    {element: 'compass', url: `url(dist/${_img_banners_compass_jpg__WEBPACK_IMPORTED_MODULE_12__[\"default\"]})`},\r\n    {element: 'mysql', url: `url(dist/${_img_banners_mysql_jpg__WEBPACK_IMPORTED_MODULE_13__[\"default\"]})`},\r\n    {element: 'apatche', url: `url(dist/${_img_banners_apatche2_jpg__WEBPACK_IMPORTED_MODULE_14__[\"default\"]})`},\r\n    {element: 'nginx', url: `url(dist/${_img_banners_nginx_jpg__WEBPACK_IMPORTED_MODULE_15__[\"default\"]})`},\r\n    {element: 'git', url: `url(dist/${_img_banners_git_jpg__WEBPACK_IMPORTED_MODULE_16__[\"default\"]})`},\r\n    {element: 'php', url: `url(dist/${_img_banners_php_jpg__WEBPACK_IMPORTED_MODULE_17__[\"default\"]})`},\r\n    {element: 'xml', url: `url(dist/${_img_banners_xml_jpg__WEBPACK_IMPORTED_MODULE_18__[\"default\"]})`},\r\n    {element: 'figma', url: `url(dist/${_img_banners_figma_jpg__WEBPACK_IMPORTED_MODULE_19__[\"default\"]})`},\r\n    {element: 'photoshop', url: `url(dist/${_img_banners_photoshop_jpg__WEBPACK_IMPORTED_MODULE_20__[\"default\"]})`},\r\n    {element: 'ubuntu', url: `url(dist/${_img_banners_ubuntu_jpg__WEBPACK_IMPORTED_MODULE_21__[\"default\"]})`},\r\n    {element: 'windows', url: `url(dist/${_img_banners_windows_jpg__WEBPACK_IMPORTED_MODULE_22__[\"default\"]})`},\r\n    {element: 'apple', url: `url(dist/${_img_banners_aple_jpg__WEBPACK_IMPORTED_MODULE_23__[\"default\"]})`},\r\n];\r\n\r\npromise.then(function () {\r\n    getBgUrl(sliderArray);\r\n    [].forEach.call(document.querySelectorAll('img[data-src]'), function (img) {\r\n        img.setAttribute('src', img.getAttribute('data-src'));\r\n        img.onload = function () {\r\n            img.removeAttribute('data-src');\r\n        };\r\n    });\r\n    [].forEach.call(document.querySelectorAll('img[data-src]'), function (img) {\r\n        img.setAttribute('src', img.getAttribute('data-src'));\r\n        img.onload = function () {\r\n            img.removeAttribute('data-src');\r\n        };\r\n    });\r\n});\n\n//# sourceURL=webpack:///./src/js/lazy-loading.js?");
 
 /***/ }),
 
@@ -487,7 +451,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/slick-carousel */ \"./node_modules/slick-carousel/slick/slick.js\");\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\nconst data = {\r\n    sliderSkill: '.box__slick-slider .slick-slider',\r\n    sliderCert: '.box__certificates-slider .slick-slider',\r\n    sliderProject: '.box__project-slider .slick-slider',\r\n    skilsBox: '.skils-box',\r\n    slickDots: '.slick-dots',\r\n    item: '.skils-box__item',\r\n    slideControl:'#slick-slide-control',\r\n};\r\nconst methods = {\r\n    getDots: (number) => {\r\n        _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(data.slickDots).find(data.slideControl + number).parent().trigger(\"click\");\r\n    },\r\n    getSlide: (type) => {\r\n        function issJavascript() {\r\n            methods.getDots(\"00\");\r\n        }\r\n\r\n        function isJquery() {\r\n            methods.getDots(\"01\");\r\n        }\r\n\r\n        function isVue() {\r\n            methods.getDots(\"02\");\r\n        }\r\n\r\n        function isCss() {\r\n            methods.getDots(\"03\");\r\n        }\r\n\r\n        function isSass() {\r\n            methods.getDots(\"04\");\r\n        }\r\n\r\n        function isLess() {\r\n            methods.getDots(\"05\");\r\n        }\r\n\r\n        function isFlexBox() {\r\n            methods.getDots(\"06\");\r\n        }\r\n\r\n        function isGrid() {\r\n            methods.getDots(\"07\");\r\n        }\r\n\r\n        function isHtml() {\r\n            methods.getDots(\"08\");\r\n        }\r\n\r\n        function isGulp() {\r\n            methods.getDots(\"09\");\r\n        }\r\n\r\n        function isGrunt() {\r\n            methods.getDots(\"010\");\r\n        }\r\n\r\n        function isWebpack() {\r\n            methods.getDots(\"011\");\r\n        }\r\n\r\n        function isCompas() {\r\n            methods.getDots(\"012\");\r\n        }\r\n\r\n        function isMagento() {\r\n            methods.getDots(\"013\");\r\n        }\r\n\r\n        function isPrestashop() {\r\n            methods.getDots(\"014\");\r\n        }\r\n\r\n        function isMsql() {\r\n            methods.getDots(\"015\");\r\n        }\r\n\r\n        function apatche2() {\r\n            methods.getDots(\"016\");\r\n        }\r\n\r\n        function isNginx() {\r\n            methods.getDots(\"017\");\r\n        }\r\n\r\n        function isGit() {\r\n            methods.getDots(\"018\");\r\n        }\r\n\r\n        function isPhp() {\r\n            methods.getDots(\"019\");\r\n        }\r\n\r\n        function isXml() {\r\n            methods.getDots(\"020\");\r\n        }\r\n\r\n        function isFigma() {\r\n            methods.getDots(\"021\");\r\n        }\r\n\r\n        function isPhotoshop() {\r\n            methods.getDots(\"022\");\r\n        }\r\n\r\n        function isUbuntu() {\r\n            methods.getDots(\"023\");\r\n        }\r\n\r\n        function isWindows() {\r\n            methods.getDots(\"024\");\r\n        }\r\n\r\n        function isApple() {\r\n            methods.getDots(\"025\");\r\n        }\r\n\r\n        const slides = {\r\n            'javascript': issJavascript,\r\n            'jquery': isJquery,\r\n            'vue': isVue,\r\n            'css': isCss,\r\n            'sass': isSass,\r\n            'less': isLess,\r\n            'flex-box': isFlexBox,\r\n            'grid': isGrid,\r\n            'html': isHtml,\r\n            'gulp': isGulp,\r\n            'grunt': isGrunt,\r\n            'webpack': isWebpack,\r\n            'compass': isCompas,\r\n            'magento': isMagento,\r\n            'presta': isPrestashop,\r\n            'msql': isMsql,\r\n            'apatche2': apatche2,\r\n            'nginx': isNginx,\r\n            'git': isGit,\r\n            'php': isPhp,\r\n            'xml': isXml,\r\n            'figma': isFigma,\r\n            'photoshop': isPhotoshop,\r\n            'ubuntu': isUbuntu,\r\n            'windows': isWindows,\r\n            'apple': isApple,\r\n        };\r\n        return slides[type]();\r\n    },\r\n    moveToSlider: () => {\r\n        _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(data.skilsBox).find(data.item).on(\"click\", function () {\r\n            const type = _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(this).attr('class').split(' ')[1];\r\n            methods.getSlide(type);\r\n        });\r\n    },\r\n    sliderInit:(slider, config) => {\r\n        _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(slider).slick(config);\r\n        methods.moveToSlider();\r\n    }\r\n};\r\n\r\nconst autoplaySpeed = 3000;\r\nconst autoplay = true;\r\n\r\n\r\nconst skilsConfig = {\r\n    autoplay: autoplay,\r\n    autoplaySpeed: autoplaySpeed,\r\n    arrows: false,\r\n    pauseOnFocus: true,\r\n    speed: 500,\r\n    swipeToSlide: true,\r\n    dots: true\r\n};\r\n\r\nconst certConfig = skilsConfig;\r\n\r\nconst projectСonfig = {\r\n    autoplay: autoplay,\r\n    autoplaySpeed: autoplaySpeed,\r\n    centerMode: true,\r\n    centerPadding: '60px',\r\n    slidesToShow: 3,\r\n    responsive: [\r\n        {\r\n            breakpoint: 768,\r\n            settings: {\r\n                arrows: false,\r\n                centerMode: true,\r\n                centerPadding: '10px',\r\n                slidesToShow: 2\r\n            }\r\n        },\r\n        {\r\n            breakpoint: 480,\r\n            settings: {\r\n                arrows: false,\r\n                centerMode: false,\r\n                centerPadding: '40px',\r\n                slidesToShow: 1\r\n            }\r\n        }\r\n    ]\r\n};\r\n\r\n\r\nmethods.sliderInit(data.sliderSkill, skilsConfig);\r\nmethods.sliderInit(data.sliderCert, certConfig);\r\nmethods.sliderInit(data.sliderProject, projectСonfig);\r\n\r\n// i can use this methods\r\n// slickCurrentSlide\r\n// slickGoTo\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/js/slider.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../node_modules/jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../node_modules/slick-carousel */ \"./node_modules/slick-carousel/slick/slick.js\");\n/* harmony import */ var _node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_slick_carousel__WEBPACK_IMPORTED_MODULE_1__);\n\r\n\r\nconst data = {\r\n    sliderSkill: '.box__slick-slider .slick-slider',\r\n    sliderCert: '.box__certificates-slider .slick-slider',\r\n    sliderProject: '.box__project-slider .slick-slider',\r\n    skilsBox: '.skils-box',\r\n    slickDots: '.slick-dots',\r\n    item: '.skils-box__item',\r\n    slideControl:'#slick-slide-control',\r\n};\r\nconst methods = {\r\n    getDots: (number) => {\r\n        _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(data.slickDots).find(data.slideControl + number).parent().trigger(\"click\");\r\n    },\r\n    getSlide: (type) => {\r\n        function issJavascript() {\r\n            methods.getDots(\"00\");\r\n        }\r\n\r\n        function isJquery() {\r\n            methods.getDots(\"01\");\r\n        }\r\n\r\n        function isVue() {\r\n            methods.getDots(\"02\");\r\n        }\r\n\r\n        function isCss() {\r\n            methods.getDots(\"03\");\r\n        }\r\n\r\n        function isSass() {\r\n            methods.getDots(\"04\");\r\n        }\r\n\r\n        function isLess() {\r\n            methods.getDots(\"05\");\r\n        }\r\n\r\n        function isFlexBox() {\r\n            methods.getDots(\"06\");\r\n        }\r\n\r\n        function isGrid() {\r\n            methods.getDots(\"07\");\r\n        }\r\n\r\n        function isHtml() {\r\n            methods.getDots(\"08\");\r\n        }\r\n\r\n        function isGulp() {\r\n            methods.getDots(\"09\");\r\n        }\r\n\r\n        function isGrunt() {\r\n            methods.getDots(\"010\");\r\n        }\r\n\r\n        function isWebpack() {\r\n            methods.getDots(\"011\");\r\n        }\r\n\r\n        function isCompas() {\r\n            methods.getDots(\"012\");\r\n        }\r\n\r\n        function isMagento() {\r\n            methods.getDots(\"013\");\r\n        }\r\n\r\n        function isPrestashop() {\r\n            methods.getDots(\"014\");\r\n        }\r\n\r\n        function isMsql() {\r\n            methods.getDots(\"015\");\r\n        }\r\n\r\n        function apatche2() {\r\n            methods.getDots(\"016\");\r\n        }\r\n\r\n        function isNginx() {\r\n            methods.getDots(\"017\");\r\n        }\r\n\r\n        function isGit() {\r\n            methods.getDots(\"018\");\r\n        }\r\n\r\n        function isPhp() {\r\n            methods.getDots(\"019\");\r\n        }\r\n\r\n        function isXml() {\r\n            methods.getDots(\"020\");\r\n        }\r\n\r\n        function isFigma() {\r\n            methods.getDots(\"021\");\r\n        }\r\n\r\n        function isPhotoshop() {\r\n            methods.getDots(\"022\");\r\n        }\r\n\r\n        function isUbuntu() {\r\n            methods.getDots(\"023\");\r\n        }\r\n\r\n        function isWindows() {\r\n            methods.getDots(\"024\");\r\n        }\r\n\r\n        function isApple() {\r\n            methods.getDots(\"025\");\r\n        }\r\n\r\n        const slides = {\r\n            'javascript': issJavascript,\r\n            'jquery': isJquery,\r\n            'vue': isVue,\r\n            'css': isCss,\r\n            'sass': isSass,\r\n            'less': isLess,\r\n            'flex-box': isFlexBox,\r\n            'grid': isGrid,\r\n            'html': isHtml,\r\n            'gulp': isGulp,\r\n            'grunt': isGrunt,\r\n            'webpack': isWebpack,\r\n            'compass': isCompas,\r\n            'magento': isMagento,\r\n            'presta': isPrestashop,\r\n            'msql': isMsql,\r\n            'apatche2': apatche2,\r\n            'nginx': isNginx,\r\n            'git': isGit,\r\n            'php': isPhp,\r\n            'xml': isXml,\r\n            'figma': isFigma,\r\n            'photoshop': isPhotoshop,\r\n            'ubuntu': isUbuntu,\r\n            'windows': isWindows,\r\n            'apple': isApple,\r\n        };\r\n        return slides[type]();\r\n    },\r\n    moveToSlider: () => {\r\n        _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(data.skilsBox).find(data.item).on(\"click\", function () {\r\n            const type = _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(this).attr('class').split(' ')[1];\r\n            methods.getSlide(type);\r\n        });\r\n    },\r\n    sliderInit:(slider, config) => {\r\n        _node_modules_jquery__WEBPACK_IMPORTED_MODULE_0__(slider).slick(config);\r\n        methods.moveToSlider();\r\n    }\r\n};\r\n\r\nconst autoplaySpeed = 3000;\r\n// const autoplay = true;\r\nconst autoplay = false;\r\n\r\n\r\nconst skilsConfig = {\r\n    autoplay: autoplay,\r\n    autoplaySpeed: autoplaySpeed,\r\n    arrows: false,\r\n    pauseOnFocus: true,\r\n    speed: 500,\r\n    swipeToSlide: true,\r\n    dots: true\r\n};\r\n\r\nconst certConfig = skilsConfig;\r\n\r\nconst projectСonfig = {\r\n    autoplay: autoplay,\r\n    autoplaySpeed: autoplaySpeed,\r\n    centerMode: true,\r\n    centerPadding: '60px',\r\n    slidesToShow: 3,\r\n    responsive: [\r\n        {\r\n            breakpoint: 768,\r\n            settings: {\r\n                arrows: false,\r\n                centerMode: true,\r\n                centerPadding: '10px',\r\n                slidesToShow: 2\r\n            }\r\n        },\r\n        {\r\n            breakpoint: 480,\r\n            settings: {\r\n                arrows: false,\r\n                centerMode: false,\r\n                centerPadding: '40px',\r\n                slidesToShow: 1\r\n            }\r\n        }\r\n    ]\r\n};\r\n\r\n\r\nmethods.sliderInit(data.sliderSkill, skilsConfig);\r\nmethods.sliderInit(data.sliderCert, certConfig);\r\nmethods.sliderInit(data.sliderProject, projectСonfig);\r\n\r\n// i can use this methods\r\n// slickCurrentSlide\r\n// slickGoTo\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/js/slider.js?");
 
 /***/ }),
 

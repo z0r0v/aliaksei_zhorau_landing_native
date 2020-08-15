@@ -1,0 +1,395 @@
+const BASE_IMAGE_WIDTH = 1080;
+const BASE_IMAGE_HEIGHT = 720;
+
+$(function(){
+    if(typeof $("body").mask === "function") {
+        updateMasks();
+    }
+
+    $(document).on("click", ".open-popup-button", function (ev) {
+        if($(this).attr("id") && $(this).attr("id").indexOf("initiator-open-") > -1){
+            $("#" + $(this).attr("id").replace("initiator-open-", "")).show();
+            $("body").addClass("modal--show");
+        }
+        else{
+            $("#popup" + $(this).attr("data-popup-id")).show();
+            $("body").addClass("modal--show");
+        }
+    });
+
+    $(document).on("click", ".close-popup-button", function (ev) {
+        if($(this).attr("id") && $(this).attr("id").indexOf("initiator-close-") > -1){
+            $("#" + $(this).attr("id").replace("initiator-close-", "")).hide();
+            $("body").removeClass("modal--show");
+        }
+        else{
+            $("#popup" + $(this).attr("data-popup-id")).hide();
+            $("body").removeClass("modal--show");
+        }
+    });
+
+
+    $.each($(".slick-carousel"), function (index, item) {
+        $(item).slick(getCarouselAttrs(item));
+    });
+
+    $.each($(".owl-carousel-slider"), function (index, item) {
+        let carousel = $(item);
+
+        carousel
+            .on({
+                'initialized.owl.carousel': function () {
+                    carousel.find(".owl-carousel-item").show();
+                }
+            })
+            .owlCarousel(getCarouselAttrs(item));
+    });
+
+    function getCarouselAttrs(item) {
+        let attr = $(item).data("carousel-options");
+
+        return attr ? attr : {};
+    }
+
+    $.each($(".jquery-tagsinput-input"), function (index, item) {
+        $(item).tagsInput({
+            'delimiter': ['|'],
+        });
+    });
+
+    $.each($("[prefilled-data]"), function (index, item) {
+        $(item).val($(item).attr("prefilled-data"));
+    });
+
+    ellipsizeTextBox('.ellipsize-text-box');
+    ellipsizeBreadcrumbsOneLine($('.ellipsize-breadcrumbs-one-line'));
+
+    setAutosizeTextarea();
+});
+
+function setAutosizeTextarea() {
+    $.each($(".textarea-autosize"), function (index, itemObj) {
+        let item = $(itemObj);
+        let minHeight = item.attr("min-rows") ? item.attr("min-rows") : 2;
+        let maxHeight = item.attr("max-rows") ? item.attr("max-rows") : Infinity;
+
+        $(item).autoresize(minHeight, maxHeight);
+
+    });
+}
+
+function updateMasks() {
+    $(".phone-registration").mask("+375  (99)  999 - 99 - 99");
+    $(".phone-profile").mask("+375  (99)  999 - 99 - 99");
+    $(".phone-mask").mask("+375  (99)  999 - 99 - 99");
+    $(".phone-mask-by").mask("+375  (99)  999 - 99 - 99");
+    $(".phone-mask-ru").mask("+7  (999)  999 - 99 - 99");
+}
+
+function scrollToElement(selector) {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $(selector).offset().top
+    }, 500);
+}
+
+function dataURLtoBlob(dataurl) {
+    let arr = dataurl.split(','), mime = arr[0].match(/:(.*?);/)[1],
+        bstr = atob(arr[1]), n = bstr.length, u8arr = new Uint8Array(n);
+
+    while(n--){
+        u8arr[n] = bstr.charCodeAt(n);
+    }
+    return new Blob([u8arr], {type:mime});
+}
+
+function addImagePreview(file, callback) {
+    if (file) {
+        let reader = new FileReader();
+
+        reader.onload = function(e) {
+            callback(e.target.result);
+        };
+
+        reader.readAsDataURL(file);
+    }
+}
+
+function getImageByCoordinatesFromImage(blob, isBlob, callback) {
+    if(isBlob){
+        return callback(blob);
+    }
+
+    const file = new File([blob], "preview_image" + (new Date()).getTime(), {
+        type: 'image/jpeg',
+        lastModified: Date.now()
+    });
+
+    callback(file);
+}
+
+function convertBase64ToImage(image64, callback) {
+    const img = new Image();
+    img.src = image64;
+
+    img.onload = () => {
+        callback(img);
+    };
+}
+
+function resizeAndCompressImage(file, callback, sizes) {
+    const fileName = file.name;
+    const reader = new FileReader();
+    const baseWidth = sizes ? sizes[0] : BASE_IMAGE_WIDTH;
+    const baseHeight = sizes ? sizes[1] : BASE_IMAGE_HEIGHT;
+
+    reader.readAsDataURL(file);
+
+    reader.onload = event => {
+        const img = new Image();
+        img.src = event.target.result;
+
+        img.onload = () => {
+            const SCALE = img.width / img.height;
+            const elem = document.createElement('canvas');
+
+            if(img.width > img.height){
+                elem.width = img.width > baseWidth ? baseWidth : img.width;
+                elem.height = elem.width / SCALE;
+            }
+            else{
+                elem.height = img.height > baseHeight ? baseHeight : img.height;
+                elem.width = elem.height * SCALE;
+            }
+
+            const ctx = elem.getContext('2d');
+
+            // img.width and img.height will give the original dimensions
+            ctx.drawImage(img, 0, 0, elem.width, elem.height);
+
+            ctx.canvas.toBlob((blob) => {
+                const file = new File([blob], fileName, {
+                    type: 'image/jpeg',
+                    lastModified: Date.now()
+                });
+
+                callback(file);
+
+            }, 'image/jpeg', 1);
+        };
+        reader.onerror = error => console.log(error);
+    };
+}
+
+function getImageScaledSizes(width, height, maxSize) {
+    if(width > height){
+        const defaultScale = width / height;
+
+        return [maxSize, maxSize/defaultScale];
+    }
+
+    const defaultScale = height / width;
+
+    return [maxSize/defaultScale, maxSize];
+}
+
+function getLocation(callback) {
+    // if(location.protocol !== "https:"){
+    //     return callback(null);
+    // }
+
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(
+            callback,
+            function (error) {
+                if (error.code === error.PERMISSION_DENIED) {
+                    console.log("You close access to your geolocation");
+                }
+
+                callback(null);
+            });
+    } else {
+        callback(null);
+    }
+}
+
+function detectmob() {
+    return window.innerWidth <= 800 && window.innerHeight <= 600;
+}
+
+function addBootstrapModalAfterFooter() {
+    if($("#modalAfterFooter").length){
+        return false;
+    }
+
+    let modalHtml =
+        '<div id="modalAfterFooter" class="modal" tabindex="-1" role="dialog">' +
+            '<div class="modal-dialog" role="document">' +
+                '<div class="modal-content">' +
+                    '<div class="modal-header">' +
+                    '</div>' +
+                    '<div class="modal-body">' +
+                    '</div>' +
+                    '<div class="modal-footer">' +
+                        '<button id="save-modal-after-footer" type="button" class="btn btn-primary">Сохранить</button>' +
+                        '<button id="close-modal-after-footer" type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>' +
+                    '</div>' +
+                '</div>' +
+            '</div>' +
+        '</div>';
+
+    $("body").append($(modalHtml));
+}
+
+function waitImagesPost(post) {
+    post["tempPhotos"] = {};
+
+    $.each(post["photos"], function (indexIm) {
+        post["tempPhotos"][indexIm] = {
+            id: post["photos"][indexIm]["id"],
+            path: post["photos"][indexIm]["path"],
+        };
+
+        if(indexIm !== 0){
+            post["photos"][indexIm]["path"] = "";
+        }
+    });
+
+    return post;
+}
+
+function showAllPostPhotos(post) {
+    if(post.hasOwnProperty("tempPhotos") && Object.keys(post["tempPhotos"]).length === Object.keys(post["photos"]).length){
+        $.each(post["photos"], function (index) {
+            post["photos"][index]["path"] = post["tempPhotos"][index]["path"];
+        });
+    }
+}
+
+function waitImagesArticle(article) {
+    article["tempPhotos"] = {};
+
+    $.each(article["photos"], function (indexIm) {
+        article["tempPhotos"][indexIm] = article["photos"][indexIm].image;
+
+        if(parseInt(indexIm) !== 0){
+            article["photos"][indexIm].image = "";
+        }
+    });
+
+    return article;
+}
+
+function showAllArticlePhotos(article) {
+    if(article.hasOwnProperty("tempPhotos") && Object.keys(article["tempPhotos"]).length === Object.keys(article["photos"]).length){
+        $.each(article["photos"], function (indexIm) {
+            article["photos"][indexIm].image = article["tempPhotos"][indexIm];
+        });
+    }
+
+    return article;
+}
+
+function markMatch (text, term) {
+    // Find where the match is
+    var match = text.toUpperCase().indexOf(term.toUpperCase());
+
+    var $result = $('<span></span>');
+
+    // If there is no match, move on
+    if (match < 0) {
+        return $result.text(text);
+    }
+
+    // Put in whatever text is before the match
+    $result.text(text.substring(0, match));
+
+    // Mark the match
+    var $match = $('<span class="select2-rendered__match"></span>');
+    $match.text(text.substring(match, match + term.length));
+
+    // Append the matching text
+    $result.append($match);
+
+    // Put in whatever is after the match
+    $result.append(text.substring(match + term.length));
+
+    return $result;
+}
+
+function ellipsizeTextBox(selector) {
+    let elements = $(selector);
+
+    // $.each(elements, function (index, element) {
+    //     let lines = parseInt($(element).attr("data-lines"));
+    //     let wordArray = element.innerHTML.split(' ');
+    //     let lineHeight = getLineHeight(element);
+    //
+    //     if(wordArray.length < 2){
+    //         return false;
+    //     }
+    //
+    //     let height = lines ? (lineHeight * lines) + lines : element.offsetHeight;
+    //     let currentHeight = getLineHeight(element, element.innerHTML);
+    //
+    //     while(currentHeight > height && wordArray.length > 1) {
+    //         wordArray.pop();
+    //         element.innerHTML = wordArray.join(' ') + '...';
+    //
+    //         currentHeight = getLineHeight(element, element.innerHTML);
+    //     }
+    // });
+}
+
+function ellipsizeBreadcrumbsOneLine(elements) {
+    $.each(elements, function (index, element) {
+        let heightTo = $(element).parents("ul").find("li").first().offset().top;
+        let elementToChange = $(element).find(".single-breadcrumd");
+        let wordArray = elementToChange.html().split(' ');
+
+        if (wordArray.length < 2) {
+            return false;
+        }
+
+        while ($(element).offset().top > heightTo && wordArray.length > 1) {
+            wordArray.pop();
+            elementToChange.html(wordArray.join(' ') + '...');
+        }
+    });
+}
+
+function getLineHeight(element, text = 'T'){
+    let temp = document.createElement(element.nodeName);
+    temp.setAttribute("style","margin:0px;padding:0px;font-family:"+element.style.fontFamily+";font-size:"+element.style.fontSize);
+    temp.innerHTML = text;
+    temp = element.parentNode.appendChild(temp);
+
+    let ret = temp.clientHeight;
+
+    temp.parentNode.removeChild(temp);
+
+    return ret;
+}
+
+function checkGeolocationPermissions(callback){
+    if (navigator.geolocation) {
+        navigator.permissions.query({name:'geolocation'}).then(function(result) {
+            callback(result.state !== 'denied');
+        });
+    }
+    else {
+        callback(false);
+    }
+}
+
+function stopVoiceInput() {
+    window.dispatchEvent(new Event('stop-voice-input'));
+}
+
+function confirmCustom(title, content, buttons) {
+    $.confirm({
+        useBootstrap: false,
+        title: title,
+        content: content,
+        buttons: buttons
+    });
+}

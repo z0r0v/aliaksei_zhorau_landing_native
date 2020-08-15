@@ -60,6 +60,15 @@
         @extend .desktop-visible;
       }
     }
+    &--img {
+      position: absolute;
+      top: 0;
+      z-index: -1;
+      display: none;
+      @include mq($from: tablet) {
+      display: block;
+      }
+    }
   }
 
   //$url:"../img/banners/505slider.jpg",
@@ -85,6 +94,9 @@
   @mixin slide-color($color, $h2Color:$tins-black-color, $h3Color:$tins-black-color, $pColor:$tins-black-color) {
     background-image: none;
     background-color: $color;
+    @include mq($from: desktop) {
+      background: none;
+    }
     h2 {
       color: $h2Color;
     }

@@ -1,9 +1,9 @@
 import * as $ from '../../node_modules/jquery';
 // import img --------------------------------
-import javascriptImg from '../img/banners/js.jpg';
-import jqueryImg from '../img/banners/jquery.jpg';
+// import javascriptImg from '../img/banners/js.jpg';
+// import jqueryImg from '../img/banners/jquery.jpg';
+// import vueImg from '../img/banners/vue.jpg';
 import sassImg from '../img/banners/scss.jpg';
-import vueImg from '../img/banners/vue.jpg';
 import lessImg from '../img/banners/less.jpg';
 import magentoImg from '../img/banners/magento2.jpg';
 import prestashopImg from '../img/banners/presto.jpg';
@@ -42,9 +42,9 @@ const getBgUrl = (sliderArray) => {
 }
 
 const sliderArray = [
-    {element: 'javascript', url: `url(dist/${javascriptImg})`},
-    {element: 'jquery', url: `url(dist/${jqueryImg})`},
-    {element: 'vue', url: `url(dist/${vueImg})`},
+    // {element: 'javascript', url: `url(dist/${javascriptImg})`},
+    // {element: 'jquery', url: `url(dist/${jqueryImg})`},
+    // {element: 'vue', url: `url(dist/${vueImg})`},
     {element: 'sass', url: `url(dist/${sassImg})`},
     {element: 'less', url: `url(dist/${lessImg})`},
     {element: 'magento', url: `url(dist/${magentoImg})`},
