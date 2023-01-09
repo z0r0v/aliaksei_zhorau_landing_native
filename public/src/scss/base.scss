@@ -1,8 +1,10 @@
 @import "reimport";
+
 $wrapper: rem(1200px);
 body {
   background-color: $white-background-color;
 }
+
 header, footer, .container {
   margin: 0 auto;
   padding: rem(0 2px);
@@ -19,6 +21,7 @@ header, footer, .container {
     padding: rem(0 100px);
   }
 }
+
 a {
   padding: 0;
   border: none;
@@ -26,9 +29,25 @@ a {
   color: unset;
   outline-style: none;
 }
+
 button {
   border: none;
   outline-style: none;
+}
+
+.print-pdf {
+  padding: 10px 20px;
+  margin: 10px 0;
+  background: $white-color;
+  border-radius: 5px;
+  border: 1px solid $tins-black-color;
+  cursor: pointer;
+
+
+  &:hover {
+    background: $tins-black-color;
+    color: $white-color;
+  }
 }
 
 
