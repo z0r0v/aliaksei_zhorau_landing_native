@@ -46,5 +46,3 @@ function setData(path, data) {
     const db = getDatabase();
     set(ref(db, path), data);
 }
-
-setData('user/', {cvxvxc:'asdfasd'});
