@@ -1,0 +1,216 @@
+@import "reimport";
+
+.cv {
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat;
+    color: $color-cv-gray-bg;
+
+    @include mq($from: desktop) {
+        flex-direction: row;
+    }
+}
+
+.print-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+.box {
+    padding: 20px;
+}
+
+.box.first {
+    color: $color-cv-white;
+    background-color: $color-cv-gray-bg;
+
+    @include mq($from: desktop) {
+        max-width: 335px;
+    }
+
+    .general-info .name {
+        @include mq($from: desktop) {
+            display: none;
+        }
+    }
+
+    .text {
+        margin-bottom: 50px;
+
+        h3 {
+            width: 100%;
+            font-size: rem(24px);
+            font-weight: 600;
+            margin: 0;
+            padding-bottom: 12px;
+            border-bottom: 2px solid $color-cv-yellow;
+
+            @include mq($from: desktop) {
+                font-size: rem(25px);
+                font-weight: 700;
+            }
+        }
+
+        p,
+        a,
+        span {
+            margin: 16px 0;
+            font-size: rem(15px);
+            font-weight: 400;
+        }
+    }
+
+    .text.icons {
+        .content {
+            margin-top: 19px;
+        }
+
+        a,
+        span {
+            display: flex;
+            margin-bottom: 24px;
+            align-items: center;
+        }
+
+        img {
+            width: 30px;
+            height: 30px;
+            padding-right: 17px;
+        }
+    }
+}
+
+.general-info {
+    margin-bottom: 14px;
+
+    .name {
+        color: $color-cv-gray-bg;
+        background-color: $color-cv-yellow;
+        text-align: center;
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 1px;
+            font-size: rem(25px);
+            font-weight: 600;
+        }
+
+        p {
+            margin: 0;
+            font-size: rem(16px);
+            font-weight: 500;
+        }
+    }
+}
+
+.box.second {
+    @include mq($from: desktop) {
+        padding-left: 0;
+    }
+
+    .general-info {
+        display: none;
+        width: 100%;
+        box-shadow: 137px 0 0 $color-cv-yellow;
+
+        .name {
+            text-align: left;
+            padding: 15px 0 20px 21px;
+        }
+
+        @include mq($from: desktop) {
+            display: block;
+
+            h2 {
+                font-size: rem(40px);
+                font-weight: 600;
+            }
+
+            p {
+                font-size: rem(30px);
+                font-weight: 500;
+            }
+        }
+    }
+
+    .title {
+        margin-top: 0;
+        margin-bottom: 8px;
+
+        @include mq($from: desktop) {
+            font-size: rem(20px);
+            font-weight: 700;
+        }
+    }
+
+    .span {
+        margin-top: 0;
+        margin-bottom: 12px;
+
+        @include mq($from: desktop) {
+            font-size: rem(18px);
+            font-weight: 600;
+        }
+    }
+
+    > .title {
+        margin-bottom: 24px;
+        padding-bottom: 12px;
+        border-bottom: 2px solid $color-black-border;
+        font-size: 20px;
+        font-weight: 600;
+
+        @include mq($from: desktop) {
+            max-width: 335px;
+            margin-left: 50px;
+            font-size: 25px;
+        }
+    }
+
+    .item {
+        @include mq($from: desktop) {
+            padding-left: 50px;
+        }
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    h3 + span,
+    ul + span {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    li {
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+
+@media print {
+    .print-box {
+        display: none;
+    }
+
+    .box-cv {
+        border: none;
+    }
+
+    .skills {
+        display: none;
+    }
+
+    .general-info img {
+        display: none;
+    }
+}
