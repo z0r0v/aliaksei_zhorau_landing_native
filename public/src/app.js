@@ -6,7 +6,6 @@ import './scss/footer.scss';
 import './scss/skils-box.scss';
 import './scss/about-me.scss';
 import './scss/preloader.scss';
-// import './scss/box-cv.scss';
 import './scss/cv.scss';
 
 //sliders import
