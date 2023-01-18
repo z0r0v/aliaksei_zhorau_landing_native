@@ -4,6 +4,11 @@ function upgrade() {
 if [[ $RESET = w ]]; then
 npm run start
 fi;
+
+if [[ $RESET = b ]]; then
+npm run build
+fi;
+
 if [[ $RESET = d ]]; then
 firebase deploy
 fi;

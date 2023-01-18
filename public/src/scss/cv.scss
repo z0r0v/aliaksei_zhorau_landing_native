@@ -35,9 +35,31 @@ img {
         max-width: 335px;
     }
 
-    .general-info .name {
-        @include mq($from: desktop) {
-            display: none;
+    .general-info {
+        img,
+        .name {
+            width: 260px;
+            margin: 0 auto;
+
+            @include mq($from: desktop) {
+                width: 335px;
+            }
+        }
+
+        img {
+            height: 290px;
+            margin: 0 auto;
+
+            @include mq($from: desktop) {
+                width: 335px;
+                height: 374px;
+            }
+        }
+
+        .name {
+            @include mq($from: desktop) {
+                display: none;
+            }
         }
     }
 
