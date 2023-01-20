@@ -11,13 +11,6 @@
     }
 }
 
-.print-box {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-}
-
 img {
     width: 100%;
     display: block;
@@ -38,22 +31,14 @@ img {
     .general-info {
         img,
         .name {
-            width: 260px;
+            width: 335px;
             margin: 0 auto;
-
-            @include mq($from: desktop) {
-                width: 335px;
-            }
         }
 
         img {
-            height: 290px;
+            width: 335px;
+            height: 396px;
             margin: 0 auto;
-
-            @include mq($from: desktop) {
-                width: 335px;
-                height: 374px;
-            }
         }
 
         .name {
@@ -219,7 +204,6 @@ img {
     }
 }
 
-
 .skills {
     > .title {
         text-transform: uppercase;
@@ -260,7 +244,7 @@ img {
         background: none;
     }
 
-    .print-box {
+    .action-box {
         display: none;
     }
 

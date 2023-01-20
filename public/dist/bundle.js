@@ -270,7 +270,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _nod
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("const arrayButtonsPrintPdf = Array.from(document.querySelectorAll('.print-pdf'));\n\narrayButtonsPrintPdf.forEach(function (button){\n    button.addEventListener('click', function (){\n       window.print();\n   });\n});\n\n//# sourceURL=webpack:///./src/js/print-pdf.js?");
+eval("const arrayButtonsPrintPdf = Array.from(document.querySelectorAll('.print-pdf'));\n\narrayButtonsPrintPdf.forEach(function (button) {\n    button.addEventListener('click', function () {\n        window.print();\n    });\n});\n\n\n//# sourceURL=webpack:///./src/js/print-pdf.js?");
 
 /***/ }),
 

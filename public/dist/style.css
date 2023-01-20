@@ -1,21 +1,12 @@
-/**
- * Montserrat
- */
-@font-face {
-  font-family: 'Montserrat';
-  src: url(ef11b720b9a6cfb9a3173fc459b7e51b.ttf) format("truetype"); }
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url(3faa3eef13649db020445bcd9e72e2c2.ttf) format("truetype"); }
 body {
+  margin: 0;
   background-color: #fafafa; }
 
 header,
 footer,
 .container {
   margin: 0 auto;
-  padding: 0 0.125rem;
+  padding: 0;
   max-width: 1300px;
   color: #191919;
   background-color: #ffff; }
@@ -46,16 +37,71 @@ button {
   border: none;
   outline-style: none; }
 
-.print-pdf {
-  padding: 10px 20px;
-  margin: 10px 0;
-  background: #ffff;
-  border-radius: 5px;
-  border: 1px solid #191919;
-  cursor: pointer; }
-  .print-pdf:hover {
-    background: #191919;
-    color: #ffff; }
+.action-box {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: end; }
+  .action-box .print-pdf,
+  .action-box .download-pdf {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333030;
+    background-color: #FFD166;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.5s ease-out; }
+
+@keyframes view {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+    .action-box .print-pdf img,
+    .action-box .download-pdf img {
+      width: 26px;
+      height: 26px; }
+    .action-box .print-pdf span,
+    .action-box .download-pdf span {
+      display: none;
+      opacity: 0;
+      margin-left: 10px;
+      font-size: 0.875rem;
+      color: #333030; }
+    .action-box .print-pdf:hover,
+    .action-box .download-pdf:hover {
+      width: 230px;
+      border-radius: 25px;
+      background-color: #F8F8F8;
+      color: #ffff;
+      transition: all 0.5s ease-out; }
+      .action-box .print-pdf:hover span,
+      .action-box .download-pdf:hover span {
+        display: block;
+        opacity: 1;
+        animation: view 0.7s 1; }
+/**
+ * Montserrat
+ */
+@font-face {
+  font-family: 'Montserrat';
+  src: url(ef11b720b9a6cfb9a3173fc459b7e51b.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(3faa3eef13649db020445bcd9e72e2c2.ttf) format("truetype"); }
+
+body {
+  font-family: Montserrat; }
 .cv {
   display: flex;
   flex-direction: column;
@@ -64,12 +110,6 @@ button {
   @media (min-width: 61.25em) {
     .cv {
       flex-direction: row; } }
-
-.print-box {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end; }
 
 img {
   width: 100%;
@@ -86,19 +126,12 @@ img {
       max-width: 335px; } }
   .box.first .general-info img,
   .box.first .general-info .name {
-    width: 260px;
+    width: 335px;
     margin: 0 auto; }
-    @media (min-width: 61.25em) {
-      .box.first .general-info img,
-      .box.first .general-info .name {
-        width: 335px; } }
   .box.first .general-info img {
-    height: 290px;
+    width: 335px;
+    height: 396px;
     margin: 0 auto; }
-    @media (min-width: 61.25em) {
-      .box.first .general-info img {
-        width: 335px;
-        height: 374px; } }
   @media (min-width: 61.25em) {
     .box.first .general-info .name {
       display: none; } }
@@ -243,7 +276,7 @@ img {
   .box.first {
     color: black;
     background: none; }
-  .print-box {
+  .action-box {
     display: none; }
   .skills {
     display: none; }

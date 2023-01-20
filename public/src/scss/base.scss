@@ -1,7 +1,9 @@
 @import "reimport";
 
 $wrapper: rem(1200px);
+
 body {
+    margin: 0;
     background-color: $white-background-color;
 }
 
@@ -9,7 +11,7 @@ header,
 footer,
 .container {
     margin: 0 auto;
-    padding: rem(0 2px);
+    padding: 0;
     max-width: $wide;
     color: $tins-black-color;
     background-color: $white-color;
@@ -40,16 +42,67 @@ button {
     outline-style: none;
 }
 
-.print-pdf {
-    padding: 10px 20px;
-    margin: 10px 0;
-    background: $white-color;
-    border-radius: 5px;
-    border: 1px solid $tins-black-color;
-    cursor: pointer;
+.action-box {
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 
-    &:hover {
-        background: $tins-black-color;
-        color: $white-color;
+    .print-pdf,
+    .download-pdf {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $color-black-border;
+        background-color: $color-cv-yellow;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: all 0.5s ease-out;
+
+        @keyframes view {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        img {
+            width: 26px;
+            height: 26px;
+        }
+
+        span {
+            display: none;
+            opacity: 0;
+            margin-left: 10px;
+            font-size: rem(14px);
+            color: $color-black-border;
+        }
+
+        &:hover {
+            width: 230px;
+            border-radius: 25px;
+            background-color: $color-cv-white;
+            color: $white-color;
+
+            transition: all 0.5s ease-out;
+
+            span {
+                display: block;
+                opacity: 1;
+                animation: view 0.7s 1;
+            }
+        }
     }
 }
