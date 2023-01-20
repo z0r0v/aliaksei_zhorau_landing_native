@@ -19,12 +19,12 @@ footer,
     header,
     footer,
     .container {
-      padding: 0 6.25rem; } }
+      padding: 0 4.375rem; } }
   @media (min-width: 81.25em) {
     header,
     footer,
     .container {
-      padding: 0 9.375rem; } }
+      padding: 0 6.25rem; } }
 
 a {
   padding: 0;
