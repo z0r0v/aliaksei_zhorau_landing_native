@@ -1,3 +1,16 @@
+/**
+ * Montserrat
+ */
+@font-face {
+  font-family: 'Montserrat';
+  src: url(ef11b720b9a6cfb9a3173fc459b7e51b.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(3faa3eef13649db020445bcd9e72e2c2.ttf) format("truetype"); }
+
+body {
+  font-family: Montserrat; }
 body {
   margin: 0;
   background-color: #fafafa; }
@@ -89,19 +102,6 @@ button {
         display: block;
         opacity: 1;
         animation: view 0.7s 1; }
-/**
- * Montserrat
- */
-@font-face {
-  font-family: 'Montserrat';
-  src: url(ef11b720b9a6cfb9a3173fc459b7e51b.ttf) format("truetype"); }
-
-@font-face {
-  font-family: 'Montserrat';
-  src: url(3faa3eef13649db020445bcd9e72e2c2.ttf) format("truetype"); }
-
-body {
-  font-family: Montserrat; }
 .cv {
   display: flex;
   flex-direction: column;
@@ -130,7 +130,7 @@ img {
     margin: 0 auto; }
   .box.first .general-info img {
     width: 335px;
-    height: 396px;
+    height: 446px;
     margin: 0 auto; }
   @media (min-width: 61.25em) {
     .box.first .general-info .name {
