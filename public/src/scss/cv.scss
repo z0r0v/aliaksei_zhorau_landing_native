@@ -221,6 +221,10 @@ img {
             font-weight: 500;
         }
 
+        .titleSkills {
+            margin-bottom: 5px;
+        }
+
         .line {
             width: 50%;
             height: 13px;
@@ -239,6 +243,14 @@ img {
 }
 
 @media print {
+    .general-info-second-for-print {
+        display: block;
+    }
+    .cv {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
     .box.first {
         color: black;
         background: none;

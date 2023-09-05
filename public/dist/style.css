@@ -224,6 +224,9 @@ img {
   font-weight: 500;
 }
 
+.box.second .general-info-second-for-print {
+  display: none;
+}
 @media (min-width: 61.25em) {
   .box.second {
     padding-left: 0;
@@ -318,6 +321,9 @@ img {
   font-size: 0.9375rem;
   font-weight: 500;
 }
+.skills .item .titleSkills {
+  margin-bottom: 5px;
+}
 .skills .item .line {
   width: 50%;
   height: 13px;
@@ -333,6 +339,13 @@ img {
 }
 
 @media print {
+  .general-info-second-for-print {
+    display: block;
+  }
+  .cv {
+    display: flex;
+    flex-direction: column-reverse;
+  }
   .box.first {
     color: black;
     background: none;
