@@ -1,6 +1,6 @@
 @import "reimport";
 
-$wrapper: rem(1200px);
+$wrapper: 1200px;
 
 body {
     margin: 0;
@@ -17,15 +17,15 @@ footer,
     background-color: $white-color;
 
     @include mq($from: tablet) {
-        padding: rem(0 50px);
+        padding: 0 50px;
     }
 
     @include mq($from: desktop) {
-        padding: rem(0 70px);
+        padding: 0 70px;
     }
 
     @include mq($from: wide) {
-        padding: rem(0 100px);
+        padding: 0 100px;
     }
 }
 
@@ -86,7 +86,7 @@ button {
             display: none;
             opacity: 0;
             margin-left: 10px;
-            font-size: rem(14px);
+            font-size: 14px;
             color: $color-black-border;
         }
 
