@@ -20,7 +20,7 @@ header,
 footer,
 .container {
   margin: 0 auto;
-  padding: 0;
+  padding: 0 0;
   max-width: 1300px;
   color: #191919;
   background-color: white;
@@ -336,8 +336,19 @@ img {
 }
 
 @media print {
-  .general-info-second-for-print {
+  .box.second .general-info {
     display: block;
+  }
+  .box.second .general-info .name {
+    width: 335px;
+    margin: 0 auto;
+  }
+  .box.second .general-info .name .title, .box.second .general-info .name .content {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .box.first .general-info {
+    display: none;
   }
   .cv {
     display: flex;
