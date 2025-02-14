@@ -7,7 +7,7 @@ import './scss/cv.scss';
 import  './js/lazy-loading.js';
 import './js/print-pdf.js';
 
-/**
- * api
- */
-import './js/Api.js';
+import './js/components/Skills';
+import { renderSkills } from "./js/components/skills";
+
+renderSkills();

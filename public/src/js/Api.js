@@ -20,20 +20,18 @@ const database = getDatabase(app);
  *
  * @param {String} path
  */
-function getData(path){
+export function getData(path){
     const dbRef = ref(getDatabase());
-
-    get(child(dbRef, path)).then((snapshot) => {
+    return get(child(dbRef, path)).then((snapshot) => {
         if (snapshot.exists()) {
-           return snapshot.val();
+           return JSON.parse(snapshot.val());
         } else {
-            console.log("No data available");
+            console.log("No data available, check your path");
         }
     }).catch((error) => {
         console.error(error);
     });
 }
-
 
 /**
  *
@@ -43,4 +41,13 @@ function getData(path){
 function setData(path, data) {
     const db = getDatabase();
     set(ref(db, path), data);
+}
+
+/**
+ *
+ * @returns {Promise<DataSnapshot>}
+ */
+export function getSkills() {
+    const path = 'skills';
+    return getData(path);
 }
