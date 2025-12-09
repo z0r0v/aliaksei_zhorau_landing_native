@@ -1,9 +1,14 @@
 /**
  * api
  */
-import {getSkills} from '../Api.js';
+import {getSkills, getSkillsNew} from '../Api.js';
 
 export const renderSkills = () => {
+
+    getSkillsNew().then((res)=>[
+        console.log('res_new', res)
+    ])
+
     getSkills().then((res) => {
         res.forEach((skill, index) => {
             const container = document.querySelector('.skills');

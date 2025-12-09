@@ -33,6 +33,18 @@ export function getData(path){
     });
 }
 
+export function getData_new(path){
+    const dbRef = ref(getDatabase());
+    return get(child(dbRef, path)).then((snapshot) => {
+        if (snapshot.exists()) {
+            // TODO: test data for developt on system add  REFACTORING API
+            console.log('snapshot.val()', snapshot.val())
+        }
+    }).catch((error) => {
+        console.error(error);
+    });
+}
+
 /**
  *
  * @param {String} path
@@ -50,4 +62,9 @@ function setData(path, data) {
 export function getSkills() {
     const path = 'skills';
     return getData(path);
+}
+
+export function getSkillsNew() {
+    const path = 'skills_new';
+    return getData_new(path);
 }
